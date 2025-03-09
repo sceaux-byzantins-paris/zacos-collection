@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Sceau de Nicéphore Érôtikos</title>
+                <title xml:lang="en">Seal of Nikephoros Erotikos</title>
+                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+                <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
+                <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
+                <funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche
+                        (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche
+                        Forschungsgemeinschaft (DFG)</orgName>, Deutschland </funder>
+                <principal>Alessio Sopracasa</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="fr">Digitale originelle</seg>
+                    <seg xml:lang="en">Born digital</seg>
+                </edition>
+                <editor role="digital-editor" resp="#AS" when="2025-02-22">Alessio
+                    Sopracasa</editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename">Zacos_BnF_195</idno>
+                <idno type="SigiDocID">s-DFuzLT</idno>
+                <idno type="sequence"/>
+                <date/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="issuer">
+                    <!-- check the PBW -->
+                    <person gender="M" role="private">
+                        <persName xml:lang="grc">
+                            <forename>Νικήφορος</forename>
+                            <surname>Ἐρωτικός</surname>
+                        </persName>
+                        <persName xml:lang="fr">
+                            <forename>Nicéphore</forename>
+                            <surname>Érôtikos</surname>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Nikephoros</forename>
+                            <surname>Erotikos</surname>
+                        </persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="fr">France</seg>
+                            <seg xml:lang="en">France</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="fr">
+                                <placeName ref="https://www.geonames.org/2988507/paris.html"
+                                    >Paris</placeName>
+                            </seg>
+                            <seg xml:lang="en">
+                                <placeName ref="https://www.geonames.org/2988507/paris.html"
+                                    >Paris</placeName>
+                            </seg>
+                        </settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository
+                            ref="https://www.bnf.fr/fr/departement-monnaies-medailles-antiques"
+                            >Département des Monnaies, médailles et antiques</repository>
+                        <collection type="public">
+                            <rs type="collection-name" xml:lang="en">Zacos BnF</rs>
+                            <rs type="collection-name" xml:lang="fr">Zacos BnF</rs>
+                        </collection>
+                        <idno type="inv-nr-current">195</idno>
+                        <altIdentifier>
+                            <repository/>
+                            <idno type="inv-nr-former"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="fr">Privée</seg>
+                            <seg xml:lang="en">Private seals</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                            <seg xml:lang="en">Seal</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="fr">Empreinte
+                                            originale</interp>
+                                        <interp type="workType" xml:lang="en">Original
+                                            impression</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                        <seg xml:lang="en">Lead</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter"/>
+                                    </dimensions>
+                                    <measure type="weight" unit="g"/>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock">12-6</measure>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend="chipped worn-edge not-centered">
+                                    <p xml:lang="fr">Échancré aux orifices du canal; rogné au
+                                        pourtour; frappe légèrement décentrée.</p>
+                                    <p xml:lang="en">Indented at the channel openings; worn around
+                                        the edge; strike slightly off-centre.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="execution">
+                                        <seg xml:lang="fr">Frappé</seg>
+                                        <seg xml:lang="en">Struck</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="fr">Ronde</seg>
+                                        <seg xml:lang="en">Round</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc">m-KJxc6e</idno>
+                                    </rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="fr">
+                                    <placeName/>
+                                </seg>
+                                <seg xml:lang="en">
+                                    <placeName/>
+                                </seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="0951" notAfter="1000"
+                                evidence="epigraphy prosopography" cert="high" resp="#JCC #VP #AS">
+                                <seg xml:lang="fr">Xe siècle (deuxième moitié)</seg>
+                                <seg xml:lang="en">10th C., second half</seg>
+                            </origDate>
+                        </origin>
+                        <provenance type="found" subtype="discovered">
+                            <placeName type="ancientFindspot" xml:lang="fr"/>
+                            <rs type="circumstances" xml:lang=""/>
+                        </provenance>
+                        <provenance type="observed" subtype="seen">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="lost">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="transferred" subtype="moved">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <p xml:lang="fr">Iconographie.</p>
+                                        <p xml:lang="en">Iconography.</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang="en"/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <!-- ??? -->
+                                        <!-- archangels??? -->
+                                        <figDesc n="r"
+                                            ana="3-persons archangel Christ Hospitality-of-Abraham scepter"
+                                            xml:lang="fr">La scène représente la Philoxénie
+                                            d'Abraham (Genèse, 18,1-15): les trois anges qui
+                                            représentent la Trinité sont disposés autour d'une
+                                            table, au centre de laquelle est posée une coupe; l'ange
+                                            central porte un nimne cricigère, indiquant qu'il s'agit
+                                            du Christ; les anges tiennent des longs
+                                            sceptres.</figDesc>
+                                        <figDesc n="r"
+                                            ana="3-persons archangel Christ Hospitality-of-Abraham scepter"
+                                            xml:lang="en">The scene depicts Abraham's Hospitality
+                                            (Genesis, 18:1-15): the three angels representing the
+                                            Trinity are arranged around a table, in the centre of
+                                            which is a cup; the central angel is wearing a cruciform
+                                            nimbus, indicating that he is the Christ; the angels are
+                                            holding long sceptres.</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Cercle de
+                                            grènetis.</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Circle of dots.</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende linéaire sur 5 lignes.</p>
+                                        <p xml:lang="en">Linear legend of 5 lines.</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; avant
+                                            la légende, sur une ligne séparée, rang de perles; une
+                                            croisette précède le debut de la légende sur une même
+                                            ligne.</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Circle of dots; before the
+                                            legend, on a separate line, a string of pearls; a
+                                            crosslet precedes the beginning of the legend on the
+                                            same line.</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="Grek">Greek script</language>
+                <language ident="Latn">Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard
+                    script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script:
+                    Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin
+                    script</language>
+                <language ident="la-Grek">Latin written in Greek script</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="AS" when="2025-02-22">Creation of the XML record.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surfaceGrp>
+            <surface n="r">
+                <desc>Obverse</desc>
+                <graphic url="Zacos_BnF_195a" type="digital">
+                    <desc>Digital image of the obverse.</desc>
+                </graphic>
+            </surface>
+            <surface n="v">
+                <desc>Reverse</desc>
+                <graphic url="Zacos_BnF_195b" type="digital">
+                    <desc>Digital image of the reverse.</desc>
+                </graphic>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="editorial" xml:space="preserve">
+                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
+                      <ab/>
+                  </div>
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
+                      <ab>
+                          <lb n="1"/>+Κ(ύρι)ε βο
+                          <lb n="2" break="no"/>ήθ(ει) Νικη
+                          <lb n="3" break="no"/>φόρ(ῳ) τῷ
+                          <lb n="4"/>Ἐροτο
+                          <lb n="5" break="no"/>κῷ
+                      </ab>
+                  </div>
+              </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
+                      <ab/>
+                  </div>
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
+                      <ab>
+                          <lb n="0"/>
+                          <lb n="1"/>̣ΕΟ
+                          <lb n="2"/>ΗΘ̣ΝΙΗ
+                          <lb n="3"/>ΦΟΡ,Τ
+                          <lb n="4"/>ΕΡΟΤΟ
+                          <lb n="5"/>̣
+                      </ab>
+                  </div>
+              </div>
+            <div type="apparatus">
+                <listApp>
+                    <app/>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>+ Κύριε βοήθει Νικηφόρῳ τῷ Ἐροτοκῷ.</p>
+                <p xml:lang="fr">Seigneur protège Nicéphore Érôtikos.</p>
+                <p xml:lang="en">Lord aid Nikephoros Erotikos.</p>
+            </div>
+            <div type="commentary" subtype="text">
+                <p xml:lang="fr">Un sceau du même personnage, proche mais issu d'un boullotèrion
+                    différent, est également présent dans la collection Zacos: cf. Zacos BnF
+                    196<!-- internal link to ba added -->.</p>
+            </div>
+            <div type="commentary" subtype="footnotes"/>
+            <div type="bibliography" subtype="edition"/>
+            <div type="bibliography" subtype="discussion">
+                <p>Le sceau Zacos BnF 195 est mentionné dans <bibl><ptr target="Istanbul"/>, p.
+                            <citedRange unit="page"/>480</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
