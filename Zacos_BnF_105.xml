@@ -6,8 +6,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr">Sceau de Constantin Arabyndinos, protospathaire et <hi rend="italic">métritès</hi></title><!-- spelling??? -->
-                <title xml:lang="en">Seal of Constantine Arabyndinos, protospatharios and metrites</title><!-- spelling??? -->
+                <title xml:lang="fr">Sceau de Constantin Blacherni(ô)tès, protospathaire et <hi
+                        rend="italic">tagmatophylax</hi></title>
+                <title xml:lang="en">Seal of Constantine Blacherni(o)tes, protospatharios and
+                    tagmatophylax</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
                 <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
@@ -22,14 +24,14 @@
                     <seg xml:lang="fr">Digitale originelle</seg>
                     <seg xml:lang="en">Born digital</seg>
                 </edition>
-                <editor role="digital-editor" resp="#AS" when="2025-02-21">Alessio
+                <editor role="digital-editor" resp="#AS" when="2025-03-13">Alessio
                     Sopracasa</editor>
             </editionStmt>
             <publicationStmt>
                 <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
                     Methodologies for Historical Research in Byzantine Studies</authority>
-                <idno type="filename">Zacos_BnF_1</idno>
-                <idno type="SigiDocID">s-KwCn7P</idno>
+                <idno type="filename">Zacos_BnF_105</idno>
+                <idno type="SigiDocID">s-87iPf0</idno>
                 <idno type="sequence"/>
                 <date/>
                 <availability>
@@ -39,19 +41,20 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <listPerson type="issuer"><!-- check the PBW -->
+                <listPerson type="issuer">
+                    <!-- http://pbw2016.kdl.kcl.ac.uk/person/Konstantinos/20582/ ??? -->
                     <person gender="M" role="civil">
                         <persName xml:lang="grc">
                             <forename>Κωσνταντῖνος</forename>
-                            <surname>Ἀραβὐνδινος</surname><!-- spelling??? -->
+                            <surname>Βλαχερνίτῃς</surname>
                         </persName>
                         <persName xml:lang="fr">
                             <forename>Constantin</forename>
-                            <surname>Arabyndinos</surname><!-- spelling??? -->
+                            <surname>Blachernitès</surname><!-- Blacherniotes??? -->
                         </persName>
                         <persName xml:lang="en">
                             <forename>Constantine</forename>
-                            <surname>Arabyndinos</surname><!-- spelling??? -->
+                            <surname>Blachernites</surname>
                         </persName>
                     </person>
                 </listPerson>
@@ -72,12 +75,14 @@
                             </seg>
                         </settlement>
                         <institution>Bibliothèque nationale de France</institution>
-                        <repository><ref target="https://www.bnf.fr/fr/departement-monnaies-medailles-antiques">Département des Monnaies, médailles et antiques</ref></repository>
+                        <repository><ref
+                                target="https://www.bnf.fr/fr/departement-monnaies-medailles-antiques"
+                                >Département des Monnaies, médailles et antiques</ref></repository>
                         <collection type="public">
                             <rs type="collection-name" xml:lang="en">Zacos BnF</rs>
                             <rs type="collection-name" xml:lang="fr">Zacos BnF</rs>
                         </collection>
-                        <idno type="inv-nr-current">1</idno>
+                        <idno type="inv-nr-current">105</idno>
                         <altIdentifier>
                             <repository/>
                             <idno type="inv-nr-former"/>
@@ -113,16 +118,12 @@
                                     <measure type="weight" unit="g"/>
                                     <measure type="axis" unit="clock"/>
                                     <measure type="overstrikeOrient" unit="clock"/>
-                                    <measure type="channelOrient" unit="clock">1-6</measure>
+                                    <measure type="channelOrient" unit="clock"/>
                                     <measure type="countermark" unit="clock"/>
                                 </support>
-                                <condition rend="chipped worn-edge">
-                                    <p xml:lang="fr">Échancré notamment à l'orifice supérieur du
-                                        canal; rogné sur le pourtour; surface usée sur les deux
-                                        côtés.</p>
-                                    <p xml:lang="en">Indented, particularly at the upper opening of
-                                        the channel; worn around the edge; worn surface on both
-                                        sides.</p>
+                                <condition rend="not-centered">
+                                    <p xml:lang="fr">Frappe légèrement décentrée.</p>
+                                    <p xml:lang="en">Slightly off-centre strike.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -136,7 +137,7 @@
                                         <seg xml:lang="en">Round</seg>
                                     </rs>
                                     <rs type="matrix" subtype="not-surviving">
-                                        <idno type="SigiDoc">m-Jb3mHL</idno>
+                                        <idno type="SigiDoc">m-UxAunJ</idno>
                                     </rs>
                                 </layout>
                             </layoutDesc>
@@ -152,10 +153,10 @@
                                     <placeName/>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1001" notAfter="1100"
+                            <origDate type="analysis" notBefore="1040" notAfter="1080"
                                 evidence="epigraphy" cert="high" resp="#JCC #VP #AS">
-                                <seg xml:lang="fr">XIe siècle</seg>
-                                <seg xml:lang="en">11th C.</seg>
+                                <seg xml:lang="fr">XIe siècle (1040-1080)</seg>
+                                <seg xml:lang="en">11th C., 1040-1080</seg>
                             </origDate>
                         </origin>
                         <provenance type="found" subtype="discovered">
@@ -193,10 +194,8 @@
                                         <dimensions type="written" unit="mm">
                                             <dim type="diameter"/>
                                         </dimensions>
-                                        <p xml:lang="fr">Iconographie avec légende circulaire
-                                            commençant à 7 et légende en colonne.</p>
-                                        <p xml:lang="en">Iconography with circular legend starting
-                                            at 7 and legend in columns.</p>
+                                        <p xml:lang="fr">Légende linéaire sur 4 lignes.</p>
+                                        <p xml:lang="en">Linear legend of 4 lines.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -208,16 +207,13 @@
                             <decoDesc>
                                 <decoNote>
                                     <figure>
-                                        <figDesc n="r" ana="person female Virgin standing praying"
-                                            xml:lang="fr">La Vierge débout, orante; de part et
-                                            d'autre de l'effigie, sigle.</figDesc>
-                                        <figDesc n="r" ana="person female Virgin standing praying"
-                                            xml:lang="en">The Virgin standing and praying; sigla on
-                                            either sides of the image.</figDesc>
-                                        <figDesc n="decoR" xml:lang="fr">Cercle de grènetis très
-                                            partiellement conservé; une croisette précédait la légende circulaire.</figDesc>
-                                        <figDesc n="decoR" xml:lang="en">Circle of dots very
-                                            partially preserved; a crosslet preceded the circular legend.</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; une
+                                            croisette précède le début de la légende sur une même
+                                            ligne; la dernière ligne est accostée de
+                                            tirets.</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Circle of dots; a crosslet
+                                            precedes the beginning of the legend on the same line;
+                                            the last line is flanked by dashes.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -241,10 +237,8 @@
                                         <dimensions type="written" unit="mm">
                                             <dim type="diameter"/>
                                         </dimensions>
-                                        <p xml:lang="fr">Iconographie avec légende circulaire
-                                            commençant à 7 et légende en colonne.</p>
-                                        <p xml:lang="en">Iconography with circular legend starting
-                                            at 7 and legend in columns.</p>
+                                        <p xml:lang="fr">Légende linéaire sur 4 lignes.</p>
+                                        <p xml:lang="en">Linear legend of 4 lines.</p>
                                     </layout>
                                 </layoutDesc>
                             </objectDesc>
@@ -255,19 +249,12 @@
                             </handDesc>
                             <decoDesc>
                                 <decoNote>
-                                    <figure>
-                                        <figDesc n="v"
-                                            ana="person male saint St-Basil standing blessing"
-                                            xml:lang="fr">Saint Basile débout, bénissant; de part et
-                                            d'autre de l'effigie, sigle.</figDesc>
-                                        <figDesc n="v"
-                                            ana="person male saint St-Basil standing blessing"
-                                            xml:lang="en">St Basil stading and blessing; sigla on
-                                            either sides of the image.</figDesc>
-                                        <figDesc n="decoV" xml:lang="fr">Cercle de grènetis très
-                                            partiellement conservé.</figDesc>
-                                        <figDesc n="decoV" xml:lang="en">Circle of dots very
-                                            partially preserved.</figDesc>
+                                    <figure><!-- croisette??? -->
+                                        <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; une
+                                            croisette précède la légende sur une ligne
+                                            séparée.</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Circle of dots; a crosslet
+                                            precedes the legend on a separate line.</figDesc>
                                     </figure>
                                 </decoNote>
                             </decoDesc>
@@ -295,20 +282,20 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change who="AS" when="2025-02-21">Creation of the XML record.</change>
+            <change who="AS" when="2025-03-13">Creation of the XML record.</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
         <surfaceGrp>
             <surface n="r">
                 <desc>Obverse</desc>
-                <graphic url="Zacos_BnF_1a" type="digital">
+                <graphic url="Zacos_BnF_105a" type="digital">
                     <desc>Digital image of the obverse.</desc>
                 </graphic>
             </surface>
             <surface n="v">
                 <desc>Reverse</desc>
-                <graphic url="Zacos_BnF_1b" type="digital">
+                <graphic url="Zacos_BnF_105b" type="digital">
                     <desc>Digital image of the reverse.</desc>
                 </graphic>
             </surface>
@@ -317,68 +304,55 @@
     <text>
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
-                <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
+                  <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc"> 
                       <ab>
-                          <cb n="a"/>Μή(τη)ρ
-                          <cb n="b"/>Θ(εο)ῦ
+                          <lb n="1"/>+Κ(ύρι)ε β(οή-)
+                          <lb n="2"/>θ(ει) Κων(σταντίνῳ)
+                          <lb n="3"/>(πρωτο)σπα-
+                          <lb n="4"/>θ(αρίῳ)
                       </ab>
                   </div>
-                  <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
                       <ab>
-                          <lb n="1"/>[+Θ](εοτό)κε β(οή)θ(ει) Κων(σταντίνῳ) (πρωτο)σπαθ[αρ(ίῳ)]
-                      </ab>
-                  </div>
-                  <div type="textpart" n="rev" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          <cb n="c"/>Ὁ ἅ(γιος) Βασί
-                          <cb n="d"/>λειος
-                      </ab>
-                  </div>
-                  <div type="textpart" n="rev" subtype="face" rend="circular" xml:lang="grc"> 
-                      <ab>
-                          <lb n="2"/>(καὶ) μετριτῇ τῷ Ἀραβυνδ(ίνῳ)
+                          <lb n="5"/>κ(αὶ) ταγ-
+                          <lb n="6"/>ματοφύ(λακι)
+                          <lb n="7"/>τῷ Βλα[χ-]
+                          <lb n="8"/>ερνίτ(ῃ)
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
-                <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
+                  <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc">
                       <ab>
-                          <cb n="a"/>
-                          <cb n="b"/>ΘΥ
+                          <lb n="1"/>Ε
+                          <lb n="2"/>Θ
+                          <lb n="3"/>ΑΣΠΑ
+                          <lb n="4"/>Θ
                       </ab>
                   </div>
-                  <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
                       <ab>
-                          <lb n="1"/>..ΕΘ̣ΝΣΠΑ̣Θ̣..
-                      </ab>
-                  </div>
-                  <div type="textpart" n="rev" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          <cb n="c"/>̣|̣|Α̣|Σ̣Ι
-                          <cb n="d"/>Λ|ΕΙ|Ο|Σ
-                      </ab>
-                  </div>
-                  <div type="textpart" n="rev" subtype="face" rend="circular" xml:lang="grc"> 
-                      <ab>
-                          <lb n="2"/>̣Μ̣ΕΤ̣Ρ̣ΙΤ/ΤΡ̣Υ̣Ν̣Δ̣
+                          <lb n="0"/>
+                          <lb n="5"/>ΤΑΓ
+                          <lb n="6"/>ΑΤΟΦΥ
+                          <lb n="7"/>Τ̣̣ΛΑ.
+                          <lb n="8"/>Ε̣Ρ̣̣Ι̣.
                       </ab>
                   </div>
               </div>
             <div type="apparatus">
                 <listApp>
-                    <app loc="2">
-                        <note>Dans le nom de famille, la reconstitution des lettres Υ̣Ν̣Δ̣ est très
-                            hypothétique.</note>
-                    </app>
+                    <app loc="3"><note>Le signe d'abréviation est superflu.</note></app>
                 </listApp>
             </div>
             <div type="translation">
-                <p>Μήτηρ Θεοῦ. + Θεοτόκε βοήθει Κωνσταντίνῳ πρωτοσπαθαρίῳ / Ὁ ἅγιος Βασίλειος. καὶ μετριτῇ τῷ Ἀραβυνδίνῳ.</p>
-                <p xml:lang="fr"> Mère de Dieu. Saint Basile. Mère de Dieu protège Constantin Arabyndinos, protospathaire et métritès.</p>
-                <p xml:lang="en">Mother of God. Saint Basil. Mother of God aid Constantine Arabyndinos, protospatharios and metrites.</p>
+                <p></p>
+                <p xml:lang="fr"></p>
+                <p xml:lang="en"></p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>
+                <!-- voir DBF Constantin Blachernites proedros eidikos -->
             </div>
             <div type="commentary" subtype="footnotes"/>
             <div type="bibliography" subtype="edition"/>
