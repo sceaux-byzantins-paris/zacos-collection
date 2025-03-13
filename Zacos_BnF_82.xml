@@ -385,7 +385,7 @@
                     dans la première publication de cet article.</p>
             </div>
             <div type="bibliography" subtype="parallels">
-                <p>Collection Zacos BnF, no. 82;</p><!-- lien interne à ajouter -->
+                <p><ref target="Zacos_BnF_81.html">Collection Zacos BnF, no. 81</ref>;</p>
                 <p><bibl><ptr target="Sternberg"/>, <citedRange unit="entry"><ref
                                 target="https://archive.org/details/sternberg-sale-24-1990-11-19/page/60/mode/2up?view=theater"
                                 >Auktion XXIV, 19-20 novembre 1990, lot
