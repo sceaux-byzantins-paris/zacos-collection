@@ -73,9 +73,7 @@
                             </seg>
                         </settlement>
                         <institution>Bibliothèque nationale de France</institution>
-                        <repository
-                            ref="https://www.bnf.fr/fr/departement-monnaies-medailles-antiques"
-                            >Département des Monnaies, médailles et antiques</repository>
+                        <repository><ref target="https://www.bnf.fr/fr/departement-monnaies-medailles-antiques">Département des Monnaies, médailles et antiques</ref></repository>
                         <collection type="public">
                             <rs type="collection-name" xml:lang="en">Zacos BnF</rs>
                             <rs type="collection-name" xml:lang="fr">Zacos BnF</rs>
@@ -358,7 +356,7 @@
             <div type="commentary" subtype="footnotes"/>
             <div type="bibliography" subtype="edition"/>
             <div type="bibliography" subtype="parallels">
-                <p>Collection Zacos BnF, no. 42: <!-- internal link to be added --></p>
+                <p><ref target="Zacos_BnF_42.html">Collection Zacos BnF, no. 42</ref>.</p>
                 <p>Collection Dumbarton Oaks (Washington D.C.), no. BZS.1947.2.985: <bibl><ptr
                             target="DOsealsOnline"/>, <citedRange unit="entry"><ref
                                 target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1947.2.985/view"

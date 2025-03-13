@@ -73,9 +73,7 @@
                             </seg>
                         </settlement>
                         <institution>Bibliothèque nationale de France</institution>
-                        <repository
-                            ref="https://www.bnf.fr/fr/departement-monnaies-medailles-antiques"
-                            >Département des Monnaies, médailles et antiques</repository>
+                        <repository><ref target="https://www.bnf.fr/fr/departement-monnaies-medailles-antiques">Département des Monnaies, médailles et antiques</ref></repository>
                         <collection type="public">
                             <rs type="collection-name" xml:lang="en">Zacos BnF</rs>
                             <rs type="collection-name" xml:lang="fr">Zacos BnF</rs>
@@ -362,8 +360,7 @@
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr">Un sceau du même personnage, proche mais issu d'un boullotèrion
-                    différent, est également présent dans la collection Zacos: cf. Zacos BnF
-                    196<!-- internal link to ba added -->.</p>
+                    différent, est également présent dans la collection Zacos: cf. <ref target="Zacos_BnF_196.html">Collection Zacos BnF, no. 196</ref>.</p>
             </div>
             <div type="commentary" subtype="footnotes"/>
             <div type="bibliography" subtype="edition"/>
