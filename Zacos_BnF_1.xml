@@ -6,7 +6,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr">Webhooktest</title>
+                
+                <title xml:lang="fr">Sceau de Constantin Arabyndinos, protospathaire et <hi rend="italic">métritès</hi></title><!-- spelling??? -->
+                <title xml:lang="en">Seal of Constantine Arabyndinos, protospatharios and metrites</title><!-- spelling??? -->
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
                 <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
