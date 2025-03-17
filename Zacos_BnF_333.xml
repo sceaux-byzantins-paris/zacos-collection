@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://sigidoc.github.io/Schema/schema/latest/sigidoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Sceau de Basile Myralidès, protospathaire et notaire du <hi
+                        rend="italic">vestiarion</hi></title>
+                <title xml:lang="en">Seal of Basil Myralides, protospatharios and notarios of the
+                    vestiarion</title>
+                <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
+                <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
+                <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
+                <funder>
+                    <orgName corresp="https://anr.fr/">Agence Nationale de la Recherche
+                        (ANR)</orgName>, France / <orgName corresp="https://www.dfg.de/">Deutsche
+                        Forschungsgemeinschaft (DFG)</orgName>, Deutschland </funder>
+                <principal>Alessio Sopracasa</principal>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <seg xml:lang="fr">Digitale originelle</seg>
+                    <seg xml:lang="en">Born digital</seg>
+                </edition>
+                <editor role="digital-editor" resp="#AS" when="2025-03-17">Alessio
+                    Sopracasa</editor>
+            </editionStmt>
+            <publicationStmt>
+                <authority>ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New
+                    Methodologies for Historical Research in Byzantine Studies</authority>
+                <idno type="filename">Zacos_BnF_333</idno>
+                <idno type="SigiDocID">s-1Oq7YG</idno>
+                <idno type="sequence"/>
+                <date/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-NonCommercial-ShareAlike 4.0 International - CC BY-NC-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="issuer">
+                    <person gender="M" role="civil">
+                        <persName xml:lang="grc">
+                            <forename>Βασίλειος</forename>
+                            <surname>Μυραλίδης</surname>
+                        </persName>
+                        <persName xml:lang="fr">
+                            <forename>Basile</forename>
+                            <surname>Myralidès</surname>
+                        </persName>
+                        <persName xml:lang="en">
+                            <forename>Basil</forename>
+                            <surname>Myralides</surname>
+                        </persName>
+                    </person>
+                </listPerson>
+                <msDesc>
+                    <msIdentifier>
+                        <country>
+                            <seg xml:lang="fr">France</seg>
+                            <seg xml:lang="en">France</seg>
+                        </country>
+                        <settlement>
+                            <seg xml:lang="fr">
+                                <placeName ref="https://www.geonames.org/2988507/paris.html"
+                                    >Paris</placeName>
+                            </seg>
+                            <seg xml:lang="en">
+                                <placeName ref="https://www.geonames.org/2988507/paris.html"
+                                    >Paris</placeName>
+                            </seg>
+                        </settlement>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository><ref
+                                target="https://www.bnf.fr/fr/departement-monnaies-medailles-antiques"
+                                >Département des Monnaies, médailles et antiques</ref></repository>
+                        <collection type="public">
+                            <rs type="collection-name" xml:lang="en">Zacos BnF</rs>
+                            <rs type="collection-name" xml:lang="fr">Zacos BnF</rs>
+                        </collection>
+                        <idno type="inv-nr-current">333</idno>
+                        <altIdentifier>
+                            <repository/>
+                            <idno type="inv-nr-former"/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <summary n="whole">
+                            <seg xml:lang="fr">Administration centrale</seg>
+                            <seg xml:lang="en">Central administration</seg>
+                        </summary>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>
+                                        <term>
+                                            <seg xml:lang="fr">Sceau</seg>
+                                            <seg xml:lang="en">Seal</seg>
+                                        </term>
+                                        <interp type="workType" xml:lang="fr">Empreinte
+                                            originale</interp>
+                                        <interp type="workType" xml:lang="en">Original
+                                            impression</interp>
+                                    </objectType>
+                                    <material>
+                                        <seg xml:lang="fr">Plomb</seg>
+                                        <seg xml:lang="en">Lead</seg>
+                                    </material>
+                                    <dimensions type="support" unit="mm">
+                                        <dim type="diameter"/>
+                                    </dimensions>
+                                    <measure type="weight" unit="g"/>
+                                    <measure type="axis" unit="clock"/>
+                                    <measure type="overstrikeOrient" unit="clock"/>
+                                    <measure type="channelOrient" unit="clock"/>
+                                    <measure type="countermark" unit="clock"/>
+                                </support>
+                                <condition rend="chipped crushed"><!-- swelling??? -->
+                                    <p xml:lang="fr">Légèrement échancré aux orifices du canal;
+                                        boursouflure le long du canal à l'avers; écrasé sur une
+                                        petite portion en bas du revers, ayant endommagé la dernière
+                                        ligne de la légende.</p>
+                                    <p xml:lang="en">Slightly indented at the channel openings;
+                                        swelling along the channel on the obverse; crushed on a
+                                        small portion at the bottom of the reverse, having damaged
+                                        the last line of the legend.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout n="whole">
+                                    <rs type="execution">
+                                        <seg xml:lang="fr">Frappé</seg>
+                                        <seg xml:lang="en">Struck</seg>
+                                    </rs>
+                                    <rs type="shape">
+                                        <seg xml:lang="fr">Ronde</seg>
+                                        <seg xml:lang="en">Round</seg>
+                                    </rs>
+                                    <rs type="matrix" subtype="not-surviving">
+                                        <idno type="SigiDoc">m-yQbtmQ</idno>
+                                    </rs>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                                <seg xml:lang="fr">
+                                    <placeName/>
+                                </seg>
+                                <seg xml:lang="en">
+                                    <placeName/>
+                                </seg>
+                            </origPlace>
+                            <origDate type="analysis" notBefore="1041" notAfter="1060"
+                                evidence="epigraphy" cert="high" resp="#JCC #VP #AS">
+                                <seg xml:lang="fr">XIe siècle (milieu)</seg>
+                                <seg xml:lang="en">11th C., middle</seg>
+                            </origDate><!-- WS: second quarter XI C. -->
+                        </origin>
+                        <provenance type="found" subtype="discovered">
+                            <placeName type="ancientFindspot" xml:lang="fr"/>
+                            <rs type="circumstances" xml:lang=""/>
+                        </provenance>
+                        <provenance type="observed" subtype="seen">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="not-observed" subtype="lost">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <provenance type="transferred" subtype="moved">
+                            <p xml:lang=""/>
+                        </provenance>
+                        <acquisition>
+                            <p xml:lang=""/>
+                        </acquisition>
+                    </history>
+                    <msPart n="r">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="r">
+                                <seg xml:lang="en">Obverse</seg>
+                            </summary>
+                            <textLang n="r" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="r">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <p xml:lang="fr">Iconographie avec inscription en
+                                            colonnes.</p>
+                                        <p xml:lang="en">Iconography with inscription in
+                                            columns.</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="r">
+                                    <seg xml:lang="en"/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="r" ana="person female Virgin bust child"
+                                            xml:lang="fr">Buste de la Vierge Hodègètria tenant
+                                            l'Enfat au nimbe crucigère sur la bras gauche; de part
+                                            et d'autre de l'effigie, sigle.</figDesc>
+                                        <figDesc n="r" ana="person female Virgin bust child"
+                                            xml:lang="en">Bust of the Virgin Hodegetria holding the
+                                            Child with the cruciger nimbus on the left arm; on
+                                            either side of the image, sigla.</figDesc>
+                                        <figDesc n="decoR" xml:lang="fr">Cercle de grènetis très
+                                            élaboré.</figDesc>
+                                        <figDesc n="decoR" xml:lang="en">Elaborated circle of
+                                            dots.</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                    <msPart n="v">
+                        <msIdentifier/>
+                        <msContents>
+                            <summary n="v">
+                                <seg xml:lang="en">Reverse</seg>
+                            </summary>
+                            <textLang n="v" mainLang="grc">
+                                <seg xml:lang="fr">Grec byzantin</seg>
+                                <seg xml:lang="en">Byzantine Greek</seg>
+                            </textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <layoutDesc>
+                                    <layout n="v">
+                                        <dimensions type="written" unit="mm">
+                                            <dim type="diameter"/>
+                                        </dimensions>
+                                        <p xml:lang="fr">Légende linéaire sur 6 lignes.</p>
+                                        <p xml:lang="en">Linear legend of 6 lines.</p>
+                                    </layout>
+                                </layoutDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote n="v">
+                                    <seg xml:lang=""/>
+                                </handNote>
+                            </handDesc>
+                            <decoDesc>
+                                <decoNote>
+                                    <figure>
+                                        <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; avant
+                                            la légende, sur une ligne séparée, une croisette entre
+                                            tirets; la dernière ligne de la légende est accostée de
+                                            tirets.</figDesc>
+                                        <figDesc n="decoV" xml:lang="en">Circle of dots; before the
+                                            legend, on a separate line, a crosslet between dashes;
+                                            the last line of the legend is flanked by
+                                            dashes.</figDesc>
+                                    </figure>
+                                </decoNote>
+                            </decoDesc>
+                        </physDesc>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="Grek">Greek script</language>
+                <language ident="Latn">Latin script</language>
+                <language ident="grc">Ancient Greek language (to 1453; assumed to be in its standard
+                    script: Grek)</language>
+                <language ident="la">Latin language (assumed to be in its standard script:
+                    Latn)</language>
+                <language ident="grc-Latn">Ancient Greek Language (to 1453), rendered in Latin
+                    script</language>
+                <language ident="la-Grek">Latin written in Greek script</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change who="AS" when="2025-03-17">Creation of the XML record.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surfaceGrp>
+            <surface n="r">
+                <desc>Obverse</desc>
+                <graphic url="Zacos_BnF_333a" type="digital">
+                    <desc>Digital image of the obverse.</desc>
+                </graphic>
+            </surface>
+            <surface n="v">
+                <desc>Reverse</desc>
+                <graphic url="Zacos_BnF_333b" type="digital">
+                    <desc>Digital image of the reverse.</desc>
+                </graphic>
+            </surface>
+        </surfaceGrp>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="editorial" xml:space="preserve">
+                  <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
+                      <ab>
+                          <cb n="a"/>Μή(τη)ρ
+                          <cb n="b"/>Θ(εο)ῦ
+                      </ab>
+                  </div>
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
+                      <ab>
+                          <lb n="1"/>Βασιλι(ος)
+                          <lb n="2"/>(πρωτο)σπαθ(άριος) (καὶ) β(ασιλικὸς)
+                          <lb n="3"/>νοτάρ(ιος) τοῦ
+                          <lb n="4"/>βεστιαρ(ίου)
+                          <lb n="5"/>ὁ Μυραλ(ί-)
+                          <lb n="6"/>δη[ς]
+                      </ab>
+                  </div>
+              </div>
+            <div type="edition" subtype="diplomatic" xml:space="preserve">
+                  <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc">
+                      <ab>
+                          <cb n="a"/>
+                          <cb n="b"/>ΘΥ
+                      </ab>
+                  </div>
+                  <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
+                      <ab>
+                          <lb n="0"/>
+                          <lb n="1"/>ΑΣΙΛΙ,
+                          <lb n="2"/>ΑΣΠΘ,⸣
+                          <lb n="3"/>ΝΟΤΑΡ,Τ
+                          <lb n="4"/>ΕΣΤΙΑΡ
+                          <lb n="5"/>ΟΥΡΑΛ
+                          <lb n="6"/>ΔΗ̣..
+                      </ab>
+                  </div>
+              </div>
+            <div type="apparatus">
+                <listApp>
+                    <app/>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p/>
+                <p xml:lang="fr"/>
+                <p xml:lang="en"/>
+            </div>
+            <div type="commentary" subtype="text">
+                <p xml:lang="fr">Deux autres personnes ayant porté ce nom sont connues: Michel et
+                    Théodore (voir <bibl><ptr target="Wassiliou-Seibt2016"/>, <citedRange
+                            unit="part">2597</citedRange></bibl>; voir aussi <bibl><ptr target="PBW"
+                        />, <citedRange unit="entry"/><ref
+                            target="http://pbw2016.kdl.kcl.ac.uk/person/Michael/20252/">Michael
+                            20252 </ref></bibl> et <bibl><ptr target="PBW"/>, <citedRange
+                            unit="entry"><ref
+                                target="http://pbw2016.kdl.kcl.ac.uk/person/Theodoros/2102/"
+                                >Theodoros 2102 </ref></citedRange></bibl>.</p>
+            </div>
+            <div type="commentary" subtype="footnotes"/>
+            <div type="bibliography" subtype="edition"/>
+            <div type="bibliography" subtype="discussion">
+                <p>Le sceau Zacos BnF est mentionné dans <bibl><ptr target="Wassiliou-Seibt2016"/>,
+                        p. <citedRange unit="page">572</citedRange></bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
