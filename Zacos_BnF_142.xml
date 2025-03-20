@@ -293,6 +293,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-20">URL to images added.</change>
             <change who="AS" when="2025-02-26">Creation of the XML record.</change>
         </revisionDesc>
     </teiHeader>
@@ -300,13 +301,13 @@
         <surfaceGrp>
             <surface n="r">
                 <desc>Obverse</desc>
-                <graphic url="Zacos_BnF_142a" type="digital">
+                <graphic url="Zacos_BnF_142a.tif" type="photo">
                     <desc>Digital image of the obverse.</desc>
                 </graphic>
             </surface>
             <surface n="v">
                 <desc>Reverse</desc>
-                <graphic url="Zacos_BnF_142b" type="digital">
+                <graphic url="Zacos_BnF_142b.tif" type="photo">
                     <desc>Digital image of the reverse.</desc>
                 </graphic>
             </surface>
