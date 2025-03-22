@@ -171,7 +171,12 @@
                             <p xml:lang=""/>
                         </provenance>
                         <acquisition>
-                            <p xml:lang=""/>
+                            <p xml:lang="en">Gift of Janet Zacos,
+                                <date when="1998">1998</date>
+                            </p>
+                            <p xml:lang="fr">Don de Janet Zacos, <date
+                                when="1998">1998</date>
+                            </p>
                         </acquisition>
                     </history>
                     <msPart n="r">
