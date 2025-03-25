@@ -73,7 +73,9 @@
                             </seg>
                         </settlement>
                         <institution>Bibliothèque nationale de France</institution>
-                        <repository><ref target="https://www.bnf.fr/fr/departement-monnaies-medailles-antiques">Département des Monnaies, médailles et antiques</ref></repository>
+                        <repository><ref
+                                target="https://www.bnf.fr/fr/departement-monnaies-medailles-antiques"
+                                >Département des Monnaies, médailles et antiques</ref></repository>
                         <collection type="public">
                             <rs type="collection-name" xml:lang="en">Zacos BnF</rs>
                             <rs type="collection-name" xml:lang="fr">Zacos BnF</rs>
@@ -171,11 +173,9 @@
                             <p xml:lang=""/>
                         </provenance>
                         <acquisition>
-                            <p xml:lang="en">Gift of Janet Zacos,
-                                <date when="1998">1998</date>
+                            <p xml:lang="en">Gift of Janet Zacos, <date when="1998">1998</date>
                             </p>
-                            <p xml:lang="fr">Don de Janet Zacos, <date
-                                when="1998">1998</date>
+                            <p xml:lang="fr">Don de Janet Zacos, <date when="1998">1998</date>
                             </p>
                         </acquisition>
                     </history>
@@ -218,7 +218,7 @@
                                             d'Abraham (Genèse, 18,1-15): les trois anges qui
                                             représentent la Trinité sont disposés autour d'une
                                             table, au centre de laquelle est posée une coupe; l'ange
-                                            central porte un nimne cricigère, indiquant qu'il s'agit
+                                            central porte un nimbe crucigère, indiquant qu'il s'agit
                                             du Christ; les anges tiennent des longs
                                             sceptres.</figDesc>
                                         <figDesc n="r"
@@ -226,7 +226,7 @@
                                             xml:lang="en">The scene depicts Abraham's Hospitality
                                             (Genesis, 18:1-15): the three angels representing the
                                             Trinity are arranged around a table, in the centre of
-                                            which is a cup; the central angel is wearing a cruciform
+                                            which is a cup; the central angel has a cruciform
                                             nimbus, indicating that he is the Christ; the angels are
                                             holding long sceptres.</figDesc>
                                         <figDesc n="decoR" xml:lang="fr">Cercle de
@@ -262,7 +262,10 @@
                             </objectDesc>
                             <handDesc>
                                 <handNote n="v">
-                                    <seg xml:lang=""/>
+                                    <seg xml:lang="fr">La présence d'omegas en fer à cheval est
+                                        étonnante à l'époque du sceau.</seg>
+                                    <seg xml:lang="en">The presence of horseshoe-shaped omegas is
+                                        surprising in the period of the seal</seg>
                                 </handNote>
                             </handDesc>
                             <decoDesc>
@@ -347,7 +350,7 @@
                       <ab>
                           <lb n="0"/>
                           <lb n="1"/>̣ΕΟ
-                          <lb n="2"/>ΗΘ̣ΝΙΗ
+                          <lb n="2"/>ΗΘ̣ΝΙΗ
                           <lb n="3"/>ΦΟΡ,Τ
                           <lb n="4"/>ΕΡΟΤΟ
                           <lb n="5"/>̣
@@ -366,7 +369,8 @@
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr">Un sceau du même personnage, proche mais issu d'un boullotèrion
-                    différent, est également présent dans la collection Zacos: cf. <ref target="Zacos_BnF_196.html">Collection Zacos BnF, no. 196</ref>.</p>
+                    différent, est également présent dans la collection Zacos: cf. <ref
+                        target="Zacos_BnF_196.html">Collection Zacos BnF, no. 196</ref>.</p>
             </div>
             <div type="commentary" subtype="footnotes"/>
             <div type="bibliography" subtype="edition"/>

@@ -327,15 +327,15 @@
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
                       <ab>
-                          <cb n="a"/>[Ὁ ἅ(γιος)] [Θεώ]
-                          <cb n="b"/>δορ(ος)
+                          <cb n="a"/>[Ὁ ἅ(γιος)] [Θε]
+                          <cb n="b"/>ώδορ(ος)
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
                       <ab>
                           <lb n="1"/>+[Κ(ύρι)]ε β(οή)θ(ει)
                           <lb n="2"/>Λέοντ[ι]
-                          <lb n="3"/>βεσ[τ]ά[ρχ(ῃ)]
+                          <lb n="3"/>βεστά[ρχ(ῃ)]
                           <lb n="4"/>το Ἀμν(ῷ)<!-- omicron!!! -->
                       </ab>
                   </div>
@@ -352,7 +352,7 @@
                           <lb n="0"/>
                           <lb n="1"/>.Ε̣Θ
                           <lb n="2"/>ΛΕ.ΝΤ.
-                          <lb n="3"/>ΕΣ.Α̣..
+                          <lb n="3"/>ΕΣΤ̣Α̣..
                           <lb n="4"/>ΤΟΑΜ̣Ν
                       </ab>
                   </div>

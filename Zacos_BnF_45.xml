@@ -263,9 +263,9 @@
                             </handDesc>
                             <decoDesc>
                                 <decoNote>
-                                    <figure><!-- croisillion / ornamental crosslet -->
+                                    <figure><!-- croisillon / ornamental crosslet -->
                                         <figDesc n="decoV" xml:lang="fr">Cercle de grènetis; avant
-                                            la légende, sur une ligne séparée, croisillion entre
+                                            la légende, sur une ligne séparée, croisillon entre
                                             tirets; une croisette précède le debut de la légende sur
                                             une même ligne; la dernière ligne de la légende est accostée de tirets.</figDesc>
                                         <figDesc n="decoV" xml:lang="en">Circle of dots; before the
@@ -342,7 +342,7 @@
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
                       <ab>
-                          <cb n="a"/>̣|.Ε|Ο
+                          <cb n="a"/>̣|Θ̣Ε|Ο
                           <cb n="b"/>Δ|Ρ|Ο/
                       </ab>
                   </div>

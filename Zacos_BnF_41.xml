@@ -211,11 +211,11 @@
                                 <decoNote>
                                     <figure>
                                         <figDesc n="decoR" xml:lang="fr">Cercle de grènetis; une
-                                            croisette précède le début de la légende sur même ligne;
+                                            croisette précède le début de la légende sur la même ligne;
                                             la dernière ligne de la légende est accostée de
                                             tirets.</figDesc>
                                         <figDesc n="decoR" xml:lang="en">Circle of dots; a crosslet
-                                            precedes the beginning of the legend on a same line; the
+                                            precedes the beginning of the legend on the same line; the
                                             last line of the legend is flanked by dashes.</figDesc>
                                     </figure>
                                 </decoNote>
@@ -333,7 +333,7 @@
                           <lb n="1"/>ΧΕ
                           <lb n="2"/>̣ΟΗ̣Θ̣ΕΙ
                           <lb n="3"/>Τ̣ΣΔ
-                          <lb n="4"/>Λ̣̣
+                          <lb n="4"/>Λ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">

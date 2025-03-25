@@ -157,10 +157,10 @@
                                     <placeName/>
                                 </seg>
                             </origPlace>
-                            <origDate type="analysis" notBefore="1051" notAfter="1100"
+                            <origDate type="analysis" notBefore="1034" notAfter="1066"
                                 evidence="epigraphy" cert="high" resp="#JCC #VP #AS">
-                                <seg xml:lang="fr">XIe siècle (première moitié)</seg>
-                                <seg xml:lang="en">11th C., first half</seg>
+                                <seg xml:lang="fr">XIe siècle (deuxième tiers)</seg>
+                                <seg xml:lang="en">11th C., second third</seg>
                             </origDate>
                         </origin>
                         <provenance type="found" subtype="discovered">
@@ -177,11 +177,9 @@
                             <p xml:lang=""/>
                         </provenance>
                         <acquisition>
-                            <p xml:lang="en">Gift of Janet Zacos,
-                                <date when="1998">1998</date>
+                            <p xml:lang="en">Gift of Janet Zacos, <date when="1998">1998</date>
                             </p>
-                            <p xml:lang="fr">Don de Janet Zacos, <date
-                                when="1998">1998</date>
+                            <p xml:lang="fr">Don de Janet Zacos, <date when="1998">1998</date>
                             </p>
                         </acquisition>
                     </history>
@@ -329,7 +327,7 @@
                       <ab>
                           <lb n="6"/>σπ[αθα-]
                           <lb n="7"/>ρωκαν[δ(ιδάτῳ)]
-                          <lb n="8"/>(καὶ) νωταρ(ίῳ)
+                          <lb n="8"/>(καὶ) νοταρ(ίῳ)
                           <lb n="9"/>ὁ Βασότ(ης)
                       </ab>
                   </div>
@@ -356,16 +354,21 @@
               </div>
             <div type="apparatus">
                 <listApp>
+                    <app loc="6-8">
+                        <note>La légende au revers pourrait aussi bien être développée au nominatif,
+                            conformément au cas du nom transmissible.</note>
+                    </app>
                     <app loc="9">
-                        <note>Le nom de famille, dont la lecture n'est pas entièrement assurée, pourrait se terminer à la ligne suivante, par
-                            exemple avec un Η placé entre les tirets.</note>
+                        <note>Le nom de famille, dont la lecture n'est pas entièrement assurée,
+                            pourrait se terminer à la ligne suivante, par exemple avec un Η placé
+                            entre les tirets.</note>
                     </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p></p>
-                <p xml:lang="fr"></p>
-                <p xml:lang="en"></p>
+                <p/>
+                <p xml:lang="fr"/>
+                <p xml:lang="en"/>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>

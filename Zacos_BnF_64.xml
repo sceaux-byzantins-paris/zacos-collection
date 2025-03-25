@@ -6,8 +6,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title xml:lang="fr">Sceau de Constantin Chrysobalantitès</title>
-                <title xml:lang="en">Seal of Constantine Chrysobalantites</title>
+                <title xml:lang="fr">Sceau de Constantin Chrysobalanditès</title>
+                <title xml:lang="en">Seal of Constantine Chrysobalandites</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
                 <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
@@ -43,19 +43,19 @@
                     <person gender="M" role="private">
                         <persName xml:lang="grc">
                             <forename>Κωνσταντῖνος</forename>
-                            <surname>Χρυσοβαλαντίτης</surname>
+                            <surname>Χρυσοβαλανδίτης</surname>
                         </persName>
                         <persName xml:lang="fr">
                             <forename>Constantin</forename>
-                            <surname>Chrysobalantitès</surname>
+                            <surname>Chrysobalanditès</surname>
                         </persName>
                         <persName xml:lang="en">
                             <forename>Constantine</forename>
-                            <surname>Chrysobalantites</surname>
+                            <surname>Chrysobalandites</surname>
                         </persName>
                         <idno type="PBW"
                             ana="http://pbw2016.kdl.kcl.ac.uk/person/Konstantinos/20251/"
-                            >Konstantinos 20251 </idno>
+                            >Konstantinos 20251</idno>
                     </person>
                 </listPerson>
                 <msDesc>

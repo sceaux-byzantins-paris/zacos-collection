@@ -7,10 +7,10 @@
         <fileDesc>
             <titleStmt>
 
-                <title xml:lang="fr">Sceau de Nicéphore Basilios/fils de Basile,
-                    protospathaire</title>
-                <title xml:lang="en">Seal of Nikephoros Basilios/son of Basil,
-                    protospatharios</title>
+                <title xml:lang="fr">Sceau de Nicéphore Basilios (?)/fils de Basile (?)/Basilitzès
+                    (?), protospathaire</title>
+                <title xml:lang="en">Seal of Nikephoros Basilios (?)/son of Basil (?)/Basilitzes
+                    (?), protospatharios</title>
                 <!-- spelling??? -->
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
@@ -48,18 +48,21 @@
                     <person gender="M" role="aristocracy">
                         <persName xml:lang="grc">
                             <forename>Νικηφόρος</forename>
-                            <surname>Βασίλιος</surname>
-                            <surname>τοῦ Βασιλίου</surname>
+                            <surname cert="low">Βασίλιος</surname>
+                            <surname cert="low">τοῦ Βασιλίου</surname>
+                            <surname cert="low">Βασιλίτζης</surname>
                         </persName>
                         <persName xml:lang="fr">
                             <forename>Nicéphore</forename>
-                            <surname>Basilios</surname>
-                            <surname>(fils) de Basile</surname>
+                            <surname cert="low">Basilios</surname>
+                            <surname cert="low">(fils) de Basile</surname>
+                            <surname cert="low">Basilitzès</surname>
                         </persName>
                         <persName xml:lang="en">
                             <forename>Nikephoros</forename>
-                            <surname>Basilios</surname>
-                            <surname>(son) of Basil</surname>
+                            <surname cert="low">Basilios</surname>
+                            <surname cert="low">(son) of Basil</surname>
+                            <surname cert="low">Basilitzes</surname>
                         </persName>
                     </person>
                 </listPerson>
@@ -178,11 +181,9 @@
                             <p xml:lang=""/>
                         </provenance>
                         <acquisition>
-                            <p xml:lang="en">Gift of Janet Zacos,
-                                <date when="1998">1998</date>
+                            <p xml:lang="en">Gift of Janet Zacos, <date when="1998">1998</date>
                             </p>
-                            <p xml:lang="fr">Don de Janet Zacos, <date
-                                when="1998">1998</date>
+                            <p xml:lang="fr">Don de Janet Zacos, <date when="1998">1998</date>
                             </p>
                         </acquisition>
                     </history>
@@ -327,7 +328,7 @@
                           <lb n="5"/>σπαθα-
                           <lb n="6"/>ρίου τοῦ
                           <lb n="7"/>Βασιλί-
-                          <lb n="8"/>[ου]
+                          <lb n="8"/>[ου] vel [τ.]
                       </ab>
                   </div>
               </div>
@@ -347,26 +348,31 @@
                           <lb n="5"/>ΣΠΑΘΑ
                           <lb n="6"/>ΡΙ̣ΤΟΥ
                           <lb n="7"/>ΣΙΛΙ
-                          <lb n="8"/>1 o 2 
+                          <lb n="8"/>.. 
                       </ab>
                   </div>
               </div>
             <div type="apparatus">
                 <listApp>
                     <app loc="7-8">
-                        <lem>Βασιλίου</lem>
-                        <note>doit se terminer sur la dernière ligne,
-                            probablemernt avec ΟΥ plutôt qu'avec  selon l'espace disponible.</note>
+                        <note>La lecture de la fin du nom de famille est très incertaine: l'espace
+                            disponible sur la dernière ligne permet d'envisager la présence de deux
+                            lettres, ce qui donne les lectures proposées.</note>
                     </app>
                 </listApp>
             </div>
             <div type="translation">
-                <p></p>
-                <p xml:lang="fr"></p>
-                <p xml:lang="en"></p>
+                <p/>
+                <p xml:lang="fr"/>
+                <p xml:lang="en"/>
             </div>
             <div type="commentary" subtype="text">
-                <p xml:lang="fr"/>
+                <p>L'interprétation "fils de" n'est pas entièrement convaincant pour l'époque du
+                    sceau, quand on penserait plutôt à ὁ τοῦ. La première lettre de la dernière
+                    ligne est peut-être un Τ, ce qui amène au nom proposé, pour lequel il existe au
+                    moins une autre attestation (voir <bibl><ptr target="PBW"/>, <citedRange
+                            unit="entry"><ref target="http://pbw2016.kdl.kcl.ac.uk/person/Leon/161/"
+                                >Leon 161</ref></citedRange></bibl>.</p>
             </div>
             <div type="commentary" subtype="footnotes"/>
             <div type="bibliography" subtype="edition"/>
