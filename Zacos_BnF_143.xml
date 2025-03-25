@@ -302,6 +302,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-25">Leidenisation and indexing.</change>
             <change who="AS" when="2025-03-20">URL to images added.</change>
             <change who="AS" when="2025-02-26">Creation of the XML record.</change>
         </revisionDesc>
@@ -326,31 +327,31 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc">
-                      <ab><!-- sousligné car d'après // -->
-                          <cb n="a"/>[Μι]
-                          <cb n="b"/>[χα(ήλ)]
+                      <ab ana="nom">
+                          <cb n="a"/><expan><supplied reason="lost" evidence="parallel"><abbr>Μι</abbr></supplied>
+                          <cb n="b"/><supplied reason="lost" evidence="parallel"><abbr>χα</abbr><ex>ήλ</ex></supplied></expan>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"><!-- lettres du début de la légende, sdur le bord, en dehors du champ????? -->
-                      <ab>
-                          <lb n="1"/>[+]Κ(ύρι)ε [β(οή)θ(ει)]
-                          <lb n="2"/>[τῷ] σῷ [δ]ούλ(ῳ)
-                          <lb n="3"/>[Κ]ων(σταντίνῳ) σε[β]ασ
-                          <lb n="4" break="no"/>[τ]ῷ (καὶ) δουκὶ
-                          <lb n="5"/>τῷ Οὐμπερ
-                          <lb n="6" break="no"/>τοπώλῳ
+                      <ab ana="dat">
+                          <lb n="1"/><supplied reason="lost">+</supplied><rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <supplied reason="lost"><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></supplied>
+                          <lb n="2"/><supplied reason="lost">τῷ</supplied> σῷ <expan><abbr><supplied reason="lost">δ</supplied>ούλ</abbr><ex>ῳ</ex></expan></rs>
+                          <lb n="3"/><forename><expan><abbr><supplied reason="lost">Κ</supplied>ων</abbr><ex>σταντίνῳ</ex></expan></forename> <rs type="dignity" ref="#d0075">σε<supplied reason="lost">β</supplied>ασ
+                          <lb n="4" break="no"/><supplied reason="lost">τ</supplied>ῷ</rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="military" ref="#of0245">δουκὶ</rs>
+                          <lb n="5"/>τῷ <surname>Οὐμπερ
+                          <lb n="6" break="no"/>τοπώλῳ</surname>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="nom">
                           <cb n="a"/>.|.
                           <cb n="b"/>.|.
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>Κ̣Ε̣..
                           <lb n="2"/>..Σ̣.Λ
                           <lb n="3"/>.̣ΝΣΕ̣.Α̣Σ̣

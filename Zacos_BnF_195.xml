@@ -40,7 +40,6 @@
             </publicationStmt>
             <sourceDesc>
                 <listPerson type="issuer">
-                    <!-- check the PBW -->
                     <person gender="M" role="private">
                         <persName xml:lang="grc">
                             <forename>Νικήφορος</forename>
@@ -306,6 +305,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-25">Leidenisation and indexing.</change>
             <change who="AS" when="2025-03-20">URL to images added.</change>
             <change who="AS" when="2025-02-22">Creation of the XML record.</change>
         </revisionDesc>
@@ -329,25 +329,19 @@
     <text>
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
-                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab/>
-                  </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>+Κ(ύρι)ε βο
-                          <lb n="2" break="no"/>ήθ(ει) Νικη
-                          <lb n="3" break="no"/>φόρ(ῳ) τῷ
-                          <lb n="4"/>Ἐροτο
-                          <lb n="5" break="no"/>κῷ
+                      <ab ana="dat">
+                          <lb n="1"/>+<rs type="invocation" ref="#inv003"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>βο
+                          <lb n="2" break="no"/>ήθ</abbr><ex>ει</ex></expan></rs> <forename><expan><abbr>Νικη
+                          <lb n="3" break="no"/>φόρ</abbr><ex>ῳ</ex></expan></forename> τῷ
+                          <lb n="4"/><surname>Ἐροτο
+                          <lb n="5" break="no"/>κῷ</surname>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
-                <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab/>
-                  </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="0"/>
                           <lb n="1"/>̣ΕΟ
                           <lb n="2"/>ΗΘ̣ΝΙΗ
@@ -368,7 +362,7 @@
                 <p xml:lang="en">Lord aid Nikephoros Erotikos.</p>
             </div>
             <div type="commentary" subtype="text">
-                <p xml:lang="fr">Un sceau du même personnage, proche mais issu d'un boullotèrion
+                <p xml:lang="fr">Un sceau du même personnage, proche mais issu d'un <hi rend="italic">boullotèrion</hi>
                     différent, est également présent dans la collection Zacos: cf. <ref
                         target="Zacos_BnF_196.html">Collection Zacos BnF, no. 196</ref>.</p>
             </div>

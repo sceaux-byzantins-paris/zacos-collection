@@ -298,6 +298,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-25">Leidenisation and indexing.</change>
             <change who="AS" when="2025-03-20">URL to images added.</change>
             <change who="AS" when="2025-02-26">Creation of the XML record.</change>
         </revisionDesc>
@@ -322,31 +323,31 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc">
-                      <ab>
-                          <cb n="a"/>Μι
-                          <cb n="b"/>χα(ήλ)
+                      <ab ana="nom">
+                          <cb n="a"/><expan><abbr>Μι
+                          <cb n="b"/>χα</abbr><ex>ήλ</ex></expan>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>+Κ(ύρι)ε β(οή)θ(ει)
-                          <lb n="2"/>τῷ σῷ δούλ(ῳ)
-                          <lb n="3"/>Κων(σταντίνῳ) σεβασ
-                          <lb n="4" break="no"/>τῷ (καὶ) δουκὶ
-                          <lb n="5"/>τῷ Οὐμπερ
-                          <lb n="6" break="no"/>τοπώλῳ
+                      <ab ana="dat">
+                          <lb n="1"/>+<rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan>
+                          <lb n="2"/>τῷ σῷ <expan><abbr>δούλ</abbr><ex>ῳ</ex></expan></rs>
+                          <lb n="3"/><forename><expan><abbr>Κων</abbr><ex>σταντίνῳ</ex></expan></forename> <rs type="dignity" ref="#d0075">σεβασ
+                          <lb n="4" break="no"/>τῷ</rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="military" ref="#of0245">δουκὶ</rs>
+                          <lb n="5"/>τῷ <surname>Οὐμπερ
+                          <lb n="6" break="no"/>τοπώλῳ</surname>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="nom">
                           <cb n="a"/>|Ι̣
                           <cb n="b"/>Χ|Α̣
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>Κ̣Ε̣̣Θ̣
                           <lb n="2"/>ΤΣ̣̣ΔΛ
                           <lb n="3"/>ΝΣΕ̣Α̣Σ̣

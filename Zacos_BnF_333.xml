@@ -8,7 +8,7 @@
             <titleStmt>
                 <title xml:lang="fr">Sceau de Basile Myralidès, protospathaire et notaire du <hi
                         rend="italic">vestiarion</hi></title>
-                <title xml:lang="en">Seal of Basil Myralides, protospatharios and notarios of the
+                <title xml:lang="en">Seal of Basil Myralides, protospatharios and imperial notarios of the
                     vestiarion</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
@@ -302,6 +302,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-25">Leidenisation and indexing.</change>
             <change who="AS" when="2025-03-20">URL to images added.</change>
             <change who="AS" when="2025-03-17">Creation of the XML record.</change>
         </revisionDesc>
@@ -326,31 +327,31 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          <cb n="a"/>Μή(τη)ρ
-                          <cb n="b"/>Θ(εο)ῦ
+                      <ab ana="nom">
+                          <cb n="a"/><expan><abbr>Μή</abbr><ex>τη</ex><abbr>ρ</abbr></expan>
+                          <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>Βασιλι(ος)
-                          <lb n="2"/>(πρωτο)σπαθ(άριος) (καὶ) β(ασιλικὸς)
-                          <lb n="3"/>νοτάρ(ιος) τοῦ
-                          <lb n="4"/>βεστιαρ(ίου)
-                          <lb n="5"/>ὁ Μυραλ(ί-)
-                          <lb n="6"/>δη[ς]
+                      <ab ana="nom">
+                          <lb n="1"/><forename><expan><abbr>Βασίλι</abbr><ex>ος</ex></expan></forename>
+                          <lb n="2"/><rs type="dignity" ref="#d0066"><expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σπαθ</abbr><ex>άριος</ex></expan></rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="civil" ref="#of0144"><expan><abbr>β</abbr><ex>ασιλικὸς</ex></expan>
+                          <lb n="3"/><expan><abbr>νοτάρ</abbr><ex>ιος</ex></expan></rs> τοῦ
+                          <lb n="4"/><rs type="institution" ref="#org0008"><expan><abbr>βεστιαρ</abbr><ex>ίου</ex></expan></rs>
+                          <lb n="5"/>ὁ <expan><abbr>Μυραλ</abbr><ex>ί</ex>
+                          <lb n="6" break="no"/><abbr>δη<supplied reason="lost">ς</supplied></abbr></expan>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc">
-                      <ab>
+                      <ab ana="nom">
                           <cb n="a"/>
                           <cb n="b"/>ΘΥ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="nom">
                           <lb n="0"/>
                           <lb n="1"/>ΑΣΙΛΙ,
                           <lb n="2"/>ΑΣΠΘ,⸣
@@ -367,9 +368,9 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="fr"/>
-                <p xml:lang="en"/>
+                <p>Μήτηρ Θεοῦ. / Βασίλιος πρωτοσπαθάριος καὶ βασιλικὸς νοτάριος τοῦ βεστιαρίου ὁ Μυραλίδης.</p>
+                <p xml:lang="fr">Mère de Dieu. Basile Myralidès, protospathaire et notaire impérial du <hi rend="italic">vestiarion</hi>.</p>
+                <p xml:lang="en">Mother of God. Basil Myralides, protospatharios and imperial notarios of the vestiarion.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr">Deux autres personnes ayant porté ce nom sont connues: Michel et

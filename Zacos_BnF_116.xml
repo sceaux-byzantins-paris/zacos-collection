@@ -328,7 +328,7 @@
                           <lb n="4"/><expan><abbr><am>A</am></abbr><ex>πρωτο</ex>
                           <lb n="5" break="no"/><abbr>σπαθα
                           <lb n="6" break="no"/>ρίου</abbr></expan> τοῦ
-                          <app type="alternative">
+                          <app type="alternative"><!-- to be revised -->
                               <lem><lb n="7"/>Βασιλί
                           <lb n="8" break="no"/><supplied reason="lost">ου</supplied></lem>
                               <rdg><lb n="7"/><expan><abbr>Βασιλί</abbr>

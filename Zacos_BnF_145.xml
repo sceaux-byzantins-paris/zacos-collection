@@ -73,7 +73,9 @@
                             </seg>
                         </settlement>
                         <institution>Bibliothèque nationale de France</institution>
-                        <repository><ref target="https://www.bnf.fr/fr/departement-monnaies-medailles-antiques">Département des Monnaies, médailles et antiques</ref></repository>
+                        <repository><ref
+                                target="https://www.bnf.fr/fr/departement-monnaies-medailles-antiques"
+                                >Département des Monnaies, médailles et antiques</ref></repository>
                         <collection type="public">
                             <rs type="collection-name" xml:lang="en">Zacos BnF</rs>
                             <rs type="collection-name" xml:lang="fr">Zacos BnF</rs>
@@ -172,11 +174,9 @@
                             <p xml:lang=""/>
                         </provenance>
                         <acquisition>
-                            <p xml:lang="en">Gift of Janet Zacos,
-                                <date when="1998">1998</date>
+                            <p xml:lang="en">Gift of Janet Zacos, <date when="1998">1998</date>
                             </p>
-                            <p xml:lang="fr">Don de Janet Zacos, <date
-                                when="1998">1998</date>
+                            <p xml:lang="fr">Don de Janet Zacos, <date when="1998">1998</date>
                             </p>
                         </acquisition>
                     </history>
@@ -295,6 +295,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-25">Leidenisation and indexing.</change>
             <change who="AS" when="2025-03-20">URL to images added.</change>
             <change who="AS" when="2025-02-22">Creation of the XML record.</change>
         </revisionDesc>
@@ -319,39 +320,39 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"><!-- ???????? -->
-                      <ab>
-                          <cb n="a"/>Μ(ήτη)ρ
-                          <cb n="b"/>Θ(εο)[ῦ]
+                      <ab ana="nom">
+                          <cb n="a"/><expan><abbr>Μ</abbr><ex>ήτη</ex><abbr>ρ</abbr></expan>
+                          <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><supplied reason="lost"><abbr>ῦ</abbr></supplied></expan>
                       </ab>
                   </div>
                 <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>Θ(εοτό)κε [Ὁδ]ιγήτρ(ι)α β(οή)θ(ει)
+                      <ab ana="dat">
+                          <lb n="1"/><rs type="invocation" ref="#inv015"><expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> <expan><abbr><supplied reason="lost">Ὁδ</supplied>ιγήτρ</abbr><ex>ι</ex><abbr>α</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></rs>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
-                          <lb n="2"/>τῷ σῷ
-                          <lb n="3"/>δού(λῳ) Λέον
-                          <lb n="4" break="no"/>τ(ι) τῷ Ἰπο
-                          <lb n="5" break="no"/>ταμιν(ῷ)
+                      <ab ana="dat">
+                          <lb n="2"/><rs type="invocation">τῷ σῷ
+                          <lb n="3"/><expan><abbr>δού</abbr><ex>λῳ</ex></expan></rs> <forename><expan><abbr>Λέον
+                          <lb n="4" break="no"/>τ</abbr><ex>ι</ex></expan></forename> τῷ <surname><expan><abbr>Ἰπο
+                          <lb n="5" break="no"/>ταμιν</abbr><ex>ῷ</ex></expan></surname>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="nom">
                           <cb n="a"/>ΜΡ
                           <cb n="b"/>Θ.
                       </ab>
                   </div>
                 <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"><!-- ??? -->
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>ΘΕ..ΙΓ̣Η̣Τ̣ΡΑΘˊ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="2"/>Τ̣Σ
                           <lb n="3"/>ΔΛΕΟΝ
                           <lb n="4"/>Τ,ΤΙΠΟ
@@ -382,9 +383,16 @@
                     selon la restitution de V. Laurent, l'inscription invocative à l'avers est
                     différente, tandis que le nom transmissible est gravé en entier: <bibl><ptr
                             target="Orghidan"/>, no. <citedRange unit="part"
-                                >464</citedRange></bibl>: l'éditeur lit le nom transmissible comme Ποταμινῷ, en
+                    >464</citedRange></bibl>: l'éditeur lit le nom transmissible comme Ποταμινῷ, en
                     considérant que le iota initial est en revanche un iota souscrit à l'article
-                    introduisant le nom, transcrit comme τῶι/τῷ.</p>
+                    introduisant le nom, transcrit comme τῶι/τῷ; en revanche, <bibl><ptr
+                            target="Seibt2003"/>, p. <citedRange unit="page"/>202</bibl> lisent bien
+                    le nom comme Ἰποταμιν(ός); les auteurs mentionnent également un parallèle du
+                    sceau Orghidan conservé à Dumbarton Oaks, avec le numéro d'inventaire 55.1.2481, et
+                    considèrent les deux sceaux des parallèles de l'exemplaire de la BnF. Voir
+                    aussi la <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref
+                                target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/4860/"
+                                >boulloterion 4860</ref></citedRange></bibl>.</p>
             </div>
             <!-- parallèle à DO ?????? -->
         </body>
