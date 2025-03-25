@@ -7,9 +7,9 @@
         <fileDesc>
             <titleStmt>
 
-                <title xml:lang="fr">Sceau de Nicéphore Basilios (?)/fils de Basile (?)/Basilitzès
+                <title xml:lang="fr">Sceau de Nicéphore Basilios (?) / fils de Basile (?) / Basilitzès
                     (?), protospathaire</title>
-                <title xml:lang="en">Seal of Nikephoros Basilios (?)/son of Basil (?)/Basilitzes
+                <title xml:lang="en">Seal of Nikephoros Basilios (?) / son of Basil (?) / Basilitzes
                     (?), protospatharios</title>
                 <!-- spelling??? -->
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
@@ -292,6 +292,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-25">Leidenisation and indexing.</change>
             <change who="AS" when="2025-03-20">URL to images added.</change>
             <change who="AS" when="2025-03-16">Creation of the XML record.</change>
         </revisionDesc>
@@ -316,25 +317,29 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>Σφρα-
-                          <lb n="2"/>γὶς Νικ-
-                          <lb n="3"/>ηφόρου
+                      <ab ana="gen">
+                          <lb n="1"/>Σφρα
+                          <lb n="2" break="no"/>γὶς <forename>Νικ
+                          <lb n="3" break="no"/>ηφόρου</forename>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
-                          <lb n="4"/>(πρωτο-)
-                          <lb n="5"/>σπαθα-
-                          <lb n="6"/>ρίου τοῦ
-                          <lb n="7"/>Βασιλί-
-                          <lb n="8"/>[ου] vel [τ.]
+                      <ab ana="gen">
+                          <lb n="4"/><expan><abbr><am>A</am></abbr><ex>πρωτο</ex>
+                          <lb n="5" break="no"/><abbr>σπαθα
+                          <lb n="6" break="no"/>ρίου</abbr></expan> τοῦ
+                          <app type="alternative">
+                              <lem><lb n="7"/>Βασιλί
+                          <lb n="8" break="no"/><supplied reason="lost">ου</supplied></lem>
+                              <rdg><lb n="7"/><expan><abbr>Βασιλί</abbr>
+                          <lb n="8" break="no"/><supplied reason="lost"><abbr>τζ</abbr><ex>η</ex></supplied></expan></rdg>
+                          </app>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="gen">
                           <lb n="0"/>
                           <lb n="1"/>ΣΦΡΑ
                           <lb n="2"/>ΓΙΣΝΙ
@@ -343,7 +348,7 @@
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="gen">
                           <lb n="4"/>Α
                           <lb n="5"/>ΣΠΑΘΑ
                           <lb n="6"/>ΡΙ̣ΤΟΥ
@@ -362,9 +367,9 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="fr"/>
-                <p xml:lang="en"/>
+                <p>Σφραγὶς Νικηφόρου / πρωτοσπαθαρίου τοῦ Βασιλίου (?) <hi rend="italic">vel</hi> Βασιλίτζη (?).</p>
+                <p xml:lang="fr">Sceau de Nicéphore Basilios (?) / fils de Basile (?) / Basilitzès(?), protospathaire.</p>
+                <p xml:lang="en">Seal of Nikephoros Basilios (?) / son of Basil (?) / Basilitzes(?), protospatharios.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p>L'interprétation "fils de" n'est pas entièrement convaincante pour l'époque du

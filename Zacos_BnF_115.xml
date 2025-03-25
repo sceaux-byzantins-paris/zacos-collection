@@ -291,6 +291,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-25">Leidenisation and indexing.</change>
             <change who="AS" when="2025-03-20">URL to images added.</change>
             <change who="AS" when="2025-03-16">Creation of the XML record.</change>
         </revisionDesc>
@@ -315,26 +316,26 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>+Κ(ύρι)ε βο-
-                          <lb n="2"/>ήθει τῷ
-                          <lb n="3"/>σῷ δούλῳ
-                          <lb n="4"/>Κωνστ(αν-)
-                          <lb n="5"/>τίν(ῳ)
+                      <ab ana="dat">
+                          <lb n="1"/>+<rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> βο
+                          <lb n="2" break="no"/>ήθει τῷ
+                          <lb n="3"/>σῷ δούλῳ</rs>
+                          <lb n="4"/><forename><expan><abbr>Κωνστ</abbr><ex>αν</ex>
+                          <lb n="5" break="no"/><abbr>τίν</abbr><ex>ῳ</ex></expan></forename>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
-                          <lb n="6"/>σπ[αθα-]
-                          <lb n="7"/>ρωκαν[δ(ιδάτῳ)]
-                          <lb n="8"/>(καὶ) νοταρ(ίῳ)
-                          <lb n="9"/>ὁ Βασότ(ης)
+                      <ab ana="dat-nom">
+                          <lb n="6"/><rs type="dignity" ref="#d0080"><expan><abbr>σπ<supplied reason="lost">αθα</supplied>
+                          <lb n="7" break="no"/>ρωκαν</abbr><supplied reason="lost"><abbr>δ</abbr><ex>ιδάτῳ</ex></supplied></expan></rs>
+                          <lb n="8"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="civil" ref="#of0143"><expan><abbr>νοταρ</abbr><ex>ίῳ</ex></expan></rs>
+                          <lb n="9"/>ὁ <surname><expan><abbr>Βασότ</abbr><ex>ης</ex></expan></surname>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>̣ΕΟ
                           <lb n="2"/>Η̣Θ̣ΕΙΤ
                           <lb n="3"/>Σ̣Λ
@@ -343,7 +344,7 @@
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="dat-nom">
                           <lb n="6"/>Σ̣Π̣...
                           <lb n="7"/>ΡΑΝ.
                           <lb n="8"/>ΝΟΤΑΡ̣
@@ -366,9 +367,9 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="fr"/>
-                <p xml:lang="en"/>
+                <p>Κύριε βοήθει τῷ σῷ δούλῳ Κωνσταντίνῳ / σπαθαρωκανδιδάτῳ καὶ νοταρίῳ ὁ Βασότης.</p>
+                <p xml:lang="fr">Seigneur protège ton serviteur Constantin Basotès (?), spatharocandidat et notaire.</p>
+                <p xml:lang="en">Lord aid your servant Constantine Basotes (?), spatharokandidatos and notarios.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>
