@@ -172,11 +172,9 @@
                             <p xml:lang=""/>
                         </provenance>
                         <acquisition>
-                            <p xml:lang="en">Gift of Janet Zacos,
-                                <date when="1998">1998</date>
+                            <p xml:lang="en">Gift of Janet Zacos, <date when="1998">1998</date>
                             </p>
-                            <p xml:lang="fr">Don de Janet Zacos, <date
-                                when="1998">1998</date>
+                            <p xml:lang="fr">Don de Janet Zacos, <date when="1998">1998</date>
                             </p>
                         </acquisition>
                     </history>
@@ -299,6 +297,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-25">Leidenisation and indexing.</change>
             <change who="AS" when="2025-03-20">URL to images added.</change>
             <change who="AS" when="2025-03-19">Creation of the XML record.</change>
         </revisionDesc>
@@ -323,30 +322,30 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          <cb n="a"/>Ὁ ἅ(γιος) Γεώρ
-                          <cb n="b"/>[γ]ιος
+                      <ab ana="nom">
+                          <cb n="a"/><expan><abbr>Ὁ ἅ</abbr><ex>γιος</ex></expan> Γεώρ
+                          <cb n="b"/><supplied reason="lost">γ</supplied>ιος
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>+Κ(ύρι)ε
-                          <lb n="2"/>βοήθει
-                          <lb n="3"/>Λέοντ[ι]
-                          <lb n="4"/>τῷ Χωρ(ι)ά-
-                          <lb n="5"/>τι
+                      <ab ana="dat">
+                            <lb n="1"/><rs type="invocation" ref="#inv003"><expan><abbr>Κ</abbr><ex>ύρι</ex>ε</expan>
+                            <lb n="2"/>βοήθει</rs>
+                            <lb n="3"/><forename>Λέοντ<supplied reason="lost">ι</supplied></forename>
+                            <lb n="4"/>τῷ <surname><expan><abbr>Χωρ</abbr><ex>ι</ex><abbr>ά</abbr>
+                            <lb n="5" break="no"/>τι</expan></surname>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc">
-                      <ab>
+                      <ab ana="nom">
                           <cb n="a"/>|Γ̣Ε̣||Ρ
                           <cb n="b"/>.Ι|Ο̣|Σ̣
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>Ε
                           <lb n="2"/>ΟΗΘΕΙ̣
                           <lb n="3"/>ΛΕΟΝΤ.
@@ -363,9 +362,9 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="fr"/>
-                <p xml:lang="en"/>
+                <p>Ὁ ἅγιος Γεώργιος. / Κύριε βοήθει Λέοντι τῷ Χωριάτι.</p>
+                <p xml:lang="fr">Saint Georges. Seigneur protège Léon Chôriatès.</p>
+                <p xml:lang="en">Saint George. Lord aid Leo Choriates.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p>Le seul autre membre connu de cette famille, l'<hi rend="italic">épi tôn

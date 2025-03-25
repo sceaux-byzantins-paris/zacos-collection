@@ -307,6 +307,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-25">Leidenisation and indexing.</change>
             <change who="AS" when="2025-03-20">URL to images added.</change>
             <change who="AS" when="2025-03-13">Creation of the XML record.</change>
         </revisionDesc>
@@ -331,31 +332,31 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          <cb n="a"/>[Ὁ ἅ(γιος)] Θ[ε]όδω
-                          <cb n="b"/>ρο(ς) ὁ στρατ(ηλάτης)
+                      <ab ana="nom">
+                          <cb n="a"/><supplied reason="lost"><expan><abbr>Ὁ ἅ</abbr><ex>γιος</ex></expan></supplied> <expan><abbr>Θ<supplied reason="lost">ε</supplied>όδω
+                          <cb n="b"/>ρο</abbr><ex>ς</ex></expan> ὁ <expan><abbr>στρατ</abbr><ex>ηλάτης</ex></expan>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>+Κ(ύρι)ε β(οή)θ(ει)
-                          <lb n="2"/>τῷ σῷ [δού(λῳ)]
-                          <lb n="3"/>Χαμδου[νί]ῳ
-                          <lb n="4"/>βεστάρχ(ῃ) κ(αὶ) στρ(α-)
-                          <lb n="5"/>τιγῷ τῷ Χαμ-
-                          <lb n="6"/>δούνῃ
+                      <ab ana="dat">
+                          <lb n="1"/>+<rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan>
+                          <lb n="2"/>τῷ σῷ <supplied reason="lost"><expan><abbr>δού</abbr><ex>λῳ</ex></expan></supplied></rs>
+                          <lb n="3"/><forename>Χαμδου<supplied reason="lost">νί</supplied>ῳ</forename>
+                          <lb n="4"/><rs type="dignity" ref="#d0017"><expan><abbr>βεστάρχ</abbr><ex>ῃ</ex></expan></rs> <expan><abbr>κ</abbr><ex>αὶ</ex></expan> <rs type="office" subtype="military" ref="#of0279"><expan><abbr>στρ</abbr><ex>α</ex>
+                          <lb n="5" break="no"/><abbr>τιγῷ</abbr></expan></rs> τῷ <surname>Χαμ
+                          <lb n="6" break="no"/>δούνῃ</surname>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="nom">
                           <cb n="a"/>.|Θ̣.|Ο|Δ|
                           <cb n="b"/>ΡΟ,|Ο|ΡΑ̣|Τ|/
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>Ε,Θ̣,
                           <lb n="2"/>ΤΣ̣̣...
                           <lb n="3"/>ΧΑΔΟΥ..̣
@@ -376,9 +377,12 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="fr"/>
-                <p xml:lang="en"/>
+                <p>Ὁ ἅγιος Θεόδωρος ὁ στρατηλάτης. / Κύριε βοήθει τῷ σῷ δούλῳ Χαμδουνίῳ βεστάρχῃ καὶ
+                    στρατιγῷ τῷ Χαμδούνῃ.</p>
+                <p xml:lang="fr">Saint Théodore Stratèlatès. Seigneur protège ton serviteur Hamdoun
+                    Hamdounès/fils de Hamdoun, vestarque et stratège.</p>
+                <p xml:lang="en">Saint Theodore Stratelates. Lord aid your servant Hamdoun
+                    Hamdounes/son of Hamdoun, vestarches and strategos.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>

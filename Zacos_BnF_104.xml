@@ -293,6 +293,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-25">Leidenisation and indexing.</change>
             <change who="AS" when="2025-03-20">URL to images added.</change>
             <change who="AS" when="2025-03-19">Creation of the XML record.</change>
         </revisionDesc>
@@ -317,31 +318,31 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          <cb n="a"/>Ὁ ἀρχ(άγγελος)
-                          <cb n="b"/>Μιχ(αὴλ)
+                      <ab ana="nom">
+                          <cb n="a"/>Ὁ <expan><abbr>ἀρχ</abbr><ex>άγγελος</ex></expan>
+                          <cb n="b"/><expan><abbr>Μιχ</abbr><ex>αὴλ</ex></expan>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>Ὁ δοῦλος
-                          <lb n="2"/>τοῦ κρατα[ι]οῦ
-                          <lb n="3"/>καὶ ἁγίου ἡμῶ(ν)
-                          <lb n="4"/>βασιλέως
-                          <lb n="5"/>Μανουὴ[λ] ὁ
-                          <lb n="6"/>[Β?]οΐλα[ς?]
+                      <ab ana="nom">
+                          <lb n="1"/>Ὁ δοῦλος<!-- to be added to AL!!! -->
+                          <lb n="2"/>τοῦ κρατα<supplied reason="lost">ι</supplied>οῦ
+                          <lb n="3"/>καὶ ἁγίου <expan><abbr>ἡμῶ</abbr><ex>ν</ex></expan>
+                          <lb n="4"/>βασιλέως<!-- to be added to AL!!! -->
+                          <lb n="5"/>Μανουὴ<supplied reason="lost">λ</supplied> ὁ
+                          <lb n="6"/><supplied reason="lost" cert="low">Β</supplied>οΐλα<supplied reason="lost" cert="low">ς</supplied>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc">
-                      <ab>
+                      <ab ana="nom">
                           <cb n="a"/>Ο|ΑΡ
                           <cb n="b"/>ΜΙ̣
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="nom">
                           <lb n="1"/>Ο̣ΔΛΟΣ̣
                           <lb n="2"/>ΤΚΡ̣ΑΤΑ.
                           <lb n="3"/>Κ̣Α̣Ι̣Α̣ΓΙΗΜ̣
@@ -360,9 +361,9 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="fr"/>
-                <p xml:lang="en"/>
+                <p>Ὁ ἀρχάγγελος Μιχαὴλ. / Ὁ δοῦλος τοῦ κραταιοῦ καὶ ἁγίου ἡμῶν βασιλέως Μανουὴλ ὁ Βοΐλας (?).</p>
+                <p xml:lang="fr">L'archange Michel. Le serviteur de notre puissant et saint empereur, Manuel Boïlas (?).</p>
+                <p xml:lang="en">The archangel Michael. The servant of our mighty and holy emperor, Manuel Boilas (?).</p>
             </div>
             <div type="commentary" subtype="text">
                 <p>Un autre membre de la famille, Michel, titré sébaste, ayant vécu au siècle

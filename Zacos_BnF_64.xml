@@ -305,6 +305,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-25">Leidenisation and indexing.</change>
             <change who="AS" when="2025-03-20">URL to images added.</change>
             <change who="AS" when="2025-03-18">Creation of the XML record.</change>
         </revisionDesc>
@@ -329,30 +330,30 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          <cb n="a"/>Ὁ ἅ(γιος) Θεό
-                          <cb n="b"/>δωρο(ς)
+                      <ab ana="nom">
+                          <cb n="a"/><expan><abbr>Ὁ ἅ</abbr><ex>γιος</ex></expan> <expan><abbr>Θεό
+                          <cb n="b"/>δωρο</abbr><ex>ς</ex></expan>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>Σφ[ρ]αγὶ(ς)
-                          <lb n="2"/>Κωνσταν-
-                          <lb n="3"/>τινοῦ τοῦ
-                          <lb n="4"/>Χρυσοβα-
-                          <lb n="5"/>λανδίτ(ου)
+                      <ab ana="gen">
+                          <lb n="1"/><expan><abbr>Σφ<supplied reason="lost">ρ</supplied>αγὶ</abbr><ex>ς</ex></expan>
+                          <lb n="2"/><forename>Κωνσταν
+                          <lb n="3" break="no"/>τινοῦ</forename> τοῦ
+                          <lb n="4"/><expan><abbr>Χρυσοβα
+                          <lb n="5" break="no"/>λανδίτ</abbr><ex>ου</ex></expan>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc">
-                      <ab>
+                      <ab ana="nom">
                           <cb n="a"/>|ΘΕ|Ο
                           <cb n="b"/>|Ρ|Ο
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="gen">
                           <lb n="0"/>̣
                           <lb n="1"/>ΣΦ.ΑΓΙ,
                           <lb n="2"/>ΝΣΤΑΝ
@@ -368,9 +369,9 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="fr"/>
-                <p xml:lang="en"/>
+                <p>Ὁ ἅγιος Θεόδωρος. / Σφραγὶς Κωνσταντινοῦ τοῦ Χρυσοβαλανδίτου.</p>
+                <p xml:lang="fr">Saint Théodore. Sceau de Constantin Chrysobalanditès.</p>
+                <p xml:lang="en">Saint Theodore. Seal of Constantine Chrysobalandites.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p>On signalera l'existence de celui qui semble être un homonyme, qui était
