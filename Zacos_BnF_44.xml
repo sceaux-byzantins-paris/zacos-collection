@@ -40,7 +40,6 @@
             </publicationStmt>
             <sourceDesc>
                 <listPerson type="issuer">
-                    <!-- check the PBW -->
                     <person gender="M" role="military">
                         <persName xml:lang="grc">
                             <forename>Πόθος</forename>
@@ -54,6 +53,7 @@
                             <forename>Pothos</forename>
                             <surname>Alyates</surname>
                         </persName>
+                        <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Pothos/20118/">Pothos 20118</idno>
                     </person>
                 </listPerson>
                 <msDesc>
@@ -146,6 +146,7 @@
                                     </rs>
                                     <rs type="matrix" subtype="not-surviving">
                                         <idno type="SigiDoc">m-XfsrWQ</idno>
+                                        <idno type="PBW" corresp="http://pbw2016.kdl.kcl.ac.uk/boulloterion/5172/">5172</idno>
                                     </rs>
                                 </layout>
                             </layoutDesc>
@@ -302,6 +303,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-25">Leidenisation and indexing.</change>
             <change who="AS" when="2025-03-20">URL to images added.</change>
             <change who="AS" when="2025-02-22">Creation of the XML record.</change>
         </revisionDesc>
@@ -326,31 +328,31 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab><!-- from a parallel: underlined -->
-                          <cb n="a"/>[Ὁ ἅγιο(ς)]
-                          <cb n="b"/>[Γεώρ(γιος)]
+                      <ab ana="nom">
+                          <cb n="a"/><supplied reason="lost" evidence="parallel">Ὁ <expan><abbr>ἅγιο</abbr><ex>ς</ex></expan></supplied>
+                          <cb n="b"/><supplied reason="lost" evidence="parallel"><expan><abbr>Γεώρ</abbr><ex>γιος</ex></expan></supplied>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>+Κ(ύρι)[ε] [β(οή)θ(ει)]
-                          <lb n="2"/>τῷ σῷ δού(λῳ)
-                          <lb n="3"/>Ποθῷ (πρωτο)προ
-                          <lb n="4" break="no"/>έδρῳ (καὶ) κα
-                          <lb n="5" break="no"/>τεπά(νῳ) τῷ
-                          <lb n="6"/>Ἀλυάτ(ῃ)
+                      <ab ana="dat">
+                          <lb n="1"/>+<rs type="invocation" ref="#inv004"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr><supplied reason="lost">ε</supplied></abbr></expan> <supplied reason="lost"><expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></supplied>
+                          <lb n="2"/>τῷ σῷ <expan><abbr>δού</abbr><ex>λῳ</ex></expan></rs>
+                          <lb n="3"/><forename>Ποθῷ</forename> <rs type="dignity" ref="#d0063"><expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>προ
+                          <lb n="4" break="no"/>έδρῳ</abbr></expan></rs> <expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="military" ref="#of0263"><expan><abbr>κα
+                          <lb n="5" break="no"/>τεπά</abbr><ex>νῳ</ex></expan></rs> τῷ
+                          <lb n="6"/><surname><expan><abbr>Ἀλυάτ</abbr><ex>ῃ</ex></expan></surname>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="nom">
                           <cb n="a"/>.....
                           <cb n="b"/>....
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>̣̣..
                           <lb n="2"/>Τ̣Σ̣Δ̣
                           <lb n="3"/>Π̣ΟΘ̣Α̣ΠΡΟ
@@ -375,14 +377,17 @@
                 <p xml:lang="fr"/>
             </div>
             <div type="commentary" subtype="text">
-                <p xml:lang="fr">Un sceau du même personnage est conservé dans la collection
+                <p xml:lang="fr">Un sceau du même personnage, toujours protoproèdre et catépan, est conservé dans la collection
                     Dumbarton Oaks, no. <ref
                         target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1947.2.984/view"
                         >BZS.1947.2.984</ref>: ce dernier sceau présente une invocation plus courte
                     en début de légende et une image de saint Georges en buste. Ce sceau est
                     également mentionné dans <bibl><ptr target="BBÖ1"/>, p. <citedRange unit="page"
                             >281 et n. 5</citedRange></bibl> ("Sammlung Shaw; zitiert nach einer
-                    Notiz von V. Laurent, die ich nicht überprüfen konnte").</p>
+                    Notiz von V. Laurent, die ich nicht überprüfen konnte"); voir aussi la
+                    <bibl><ptr target="PBW"/>, <citedRange unit="entry"><ref
+                        target="http://pbw2016.kdl.kcl.ac.uk/boulloterion/5173/"
+                        >boulloterion 5173</ref></citedRange></bibl>.</p>
             </div>
             <div type="commentary" subtype="footnotes"/>
             <div type="bibliography" subtype="edition"/>

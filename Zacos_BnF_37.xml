@@ -302,6 +302,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-25">Leidenisation and indexing.</change>
             <change who="AS" when="2025-03-20">URL to images added.</change>
             <change who="AS" when="2025-03-18">Creation of the XML record.</change>
         </revisionDesc>
@@ -326,29 +327,29 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          <cb n="a"/>[Ὁ ἅ(γιος)] [Θε]
-                          <cb n="b"/>ώδορ(ος)
+                      <ab ana="nom">
+                          <cb n="a"/><supplied reason="lost"><expan><abbr>Ὁ ἅ</abbr><ex>γιος</ex></expan></supplied> <expan><abbr><supplied reason="lost">Θε</supplied>
+                          <cb n="b"/>ώδορ</abbr><ex>ος</ex></expan>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>+[Κ(ύρι)]ε β(οή)θ(ει)
-                          <lb n="2"/>Λέοντ[ι]
-                          <lb n="3"/>βεστά[ρχ(ῃ)]
-                          <lb n="4"/>το Ἀμν(ῷ)<!-- omicron!!! -->
+                      <ab ana="dat">
+                          <lb n="1"/>+<rs type="invocation" ref="#inv003"><expan><supplied reason="lost"><abbr>Κ</abbr><ex>ύρι</ex></supplied><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></rs>
+                          <lb n="2"/><forename>Λέοντ<supplied reason="lost">ι</supplied></forename>
+                          <lb n="3"/><rs type="dignity" ref="#d0017"><expan><abbr>βεστά</abbr><supplied reason="lost"><abbr>ρχ</abbr><ex>ῃ</ex></supplied></expan></rs>
+                          <lb n="4"/>το <surname><expan><abbr>Ἀμν</abbr><ex>ῷ</ex></expan></surname><!-- omicron!!! -->
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc">
-                      <ab>
+                      <ab ana="nom">
                           <cb n="a"/>.|.|.
                           <cb n="b"/>||Ο|Ρ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="dat">
                           <lb n="0"/>
                           <lb n="1"/>.Ε̣Θ
                           <lb n="2"/>ΛΕ.ΝΤ.
@@ -367,9 +368,9 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="fr"/>
-                <p xml:lang="en"/>
+                <p>Ὁ ἅγιος Θεώδορος. / + Κύριε βοήθει Λέοντι βεστάρχῃ το Ἀμνῷ.</p><!-- omicron -->
+                <p xml:lang="fr">Saint Théodore. Seigneur protège Léon Amnos, vestarque.</p>
+                <p xml:lang="en">Saint Theodore. Lord aid Leo Amnos, vestarches.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr">Un sceau appartenant vraisemblablement au même personnage, portant

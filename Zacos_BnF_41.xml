@@ -40,7 +40,6 @@
             </publicationStmt>
             <sourceDesc>
                 <listPerson type="issuer">
-                    <!-- check the PBW -->
                     <person gender="M" role="private">
                         <persName xml:lang="grc">
                             <forename>Συμεών</forename>
@@ -54,6 +53,7 @@
                             <forename>Symeon</forename>
                             <surname>Alyates</surname>
                         </persName>
+                        <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Symeon/20135/">Symeon 20135</idno>
                     </person>
                 </listPerson>
                 <msDesc>
@@ -136,6 +136,7 @@
                                     </rs>
                                     <rs type="matrix" subtype="not-surviving">
                                         <idno type="SigiDoc">m-7tXfUy</idno>
+                                        <idno type="PBW" corresp="http://pbw2016.kdl.kcl.ac.uk/boulloterion/5174/">5174</idno>
                                     </rs>
                                 </layout>
                             </layoutDesc>
@@ -287,6 +288,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-25">Leidenisation and indexing.</change>
             <change who="AS" when="2025-03-20">URL to images added.</change>
             <change who="AS" when="2025-02-22">Creation of the XML record.</change>
         </revisionDesc>
@@ -311,25 +313,25 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>+Χ(ριστ)ὲ
+                      <ab ana="dat">
+                          <lb n="1"/>+<rs type="invocation" ref="#inv014"><expan><abbr>Χ</abbr><ex>ριστ</ex><abbr>ὲ</abbr></expan>
                           <lb n="2"/>βοήθει
                           <lb n="3"/>τῷ σῷ δού
-                          <lb n="4" break="no"/>λῳ
+                          <lb n="4" break="no"/>λῳ</rs>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
-                          <lb n="5"/>Συμε
-                          <lb n="6"/>ὼν τῷ
-                          <lb n="7"/>Ἀλιά
-                          <lb n="8"/>τῃ
+                      <ab ana="dat">
+                          <lb n="5"/><forename>Συμε
+                          <lb n="6" break="no"/>ὼν</forename> τῷ
+                          <lb n="7"/><surname>Ἀλιά
+                          <lb n="8" break="no"/>τῃ</surname>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>ΧΕ
                           <lb n="2"/>̣ΟΗ̣Θ̣ΕΙ
                           <lb n="3"/>Τ̣ΣΔ
@@ -337,7 +339,7 @@
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="0"/>̣
                           <lb n="5"/>ΣΥΕ
                           <lb n="6"/>ΝΤ
@@ -352,9 +354,9 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="fr"/>
-                <p xml:lang="en"/>
+                <p>Χριστὲ βοήθει τῷ σῷ δούλῳ / Συμεὼν τῷ Ἀλιάτῃ.</p>
+                <p xml:lang="fr">Christ protège ton serviteur Syméon Alyatès.</p>
+                <p xml:lang="en">Christ aid your servant Symeon Alyates.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>
@@ -367,7 +369,7 @@
                             target="DOsealsOnline"/>, <citedRange unit="entry"><ref
                                 target="https://www.doaks.org/resources/seals/byzantine-seals/BZS.1947.2.985/view"
                                 >BZS.1947.2.985</ref></citedRange></bibl>; </p>
-                <p>Collection IFEB (Paris), no. 77 (ex 91).</p><!--  link to be added -->
+                <p>Collection IFEB (Paris), no. 77 (<hi rend="italic">olim</hi> 91).</p><!--  link to be added -->
             </div>
             <div type="bibliography" subtype="discussion">
                 <p>Le sceau IFEB 91 (aujourd'hui 77) est mentionné dans <bibl><ptr target="BBÖ1"/>, p.

@@ -296,6 +296,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-25">Leidenisation and indexing.</change>
             <change who="AS" when="2025-03-20">URL to images added.</change>
             <change who="AS" when="2025-03-18">Creation of the XML record.</change>
         </revisionDesc>
@@ -320,30 +321,30 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          <cb n="a"/>Ὁ ἅ(γιος) Θε
-                          <cb n="b"/>ώδο(ρος)
+                      <ab ana="nom">
+                          <cb n="a"/><expan><abbr>Ὁ ἅ</abbr><ex>γιος</ex></expan> <expan><abbr>Θε
+                          <cb n="b"/>ώδο</abbr><ex>ρος</ex></expan>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>+Κ(ύρι)ε β(οή)θ(ει)
-                          <lb n="2"/>Λέοντα
-                          <lb n="3"/>πρόεδρ(ῳ)
-                          <lb n="4"/>το Ἀμν-<!-- omicron -->
-                          <lb n="5"/>ῳ
+                      <ab ana="dat">
+                          <lb n="1"/>+<rs type="invocation" ref="#inv003"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></rs>
+                          <lb n="2"/><forename>Λέοντα</forename>
+                          <lb n="3"/><rs type="dignity" ref="#d0051"><expan><abbr>πρόεδρ</abbr><ex>ῳ</ex></expan></rs>
+                          <lb n="4"/>το <surname>Ἀμν
+                          <lb n="5" break="no"/>ῳ</surname><!-- omicron -->
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                   <div type="textpart" n="obv" subtype="label" rend="columns" xml:lang="grc">
-                      <ab>
+                      <ab ana="nom">
                           <cb n="a"/>|Θ|Ε̣
                           <cb n="b"/>||Ο
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>ΕΘ,
                           <lb n="2"/>ΛΕΟΝΤΑ
                           <lb n="3"/>ΠΡΟΕΔΡ
@@ -358,9 +359,9 @@
                 </listApp>
             </div>
             <div type="translation">
-                <p/>
-                <p xml:lang="fr"/>
-                <p xml:lang="en"/>
+                <p>Ὁ ἅγιος Θεώδορος. / + Κύριε βοήθει Λέοντα πρόεδρῳ το Ἀμνῳ.</p><!-- omicron -->
+                <p xml:lang="fr">Saint Théodore. Seigneur protège Léon Amnos, proèdre.</p>
+                <p xml:lang="en">Saint Theodore. Lord aid Leo Amnos, proedros.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr">Un sceau appartenant vraisemblablement au même personnage, portant

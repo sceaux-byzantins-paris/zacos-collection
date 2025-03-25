@@ -40,7 +40,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <listPerson type="issuer"><!-- check the PBW -->
+                <listPerson type="issuer">
                     <person gender="M" role="civil">
                         <persName xml:lang="grc">
                             <forename>Κωσνταντῖνος</forename>
@@ -301,6 +301,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-25">Leidenisation and indexing.</change>
             <change who="AS" when="2025-03-20">URL to images added.</change>
             <change who="AS" when="2025-02-21">Creation of the XML record.</change>
         </revisionDesc>
@@ -325,48 +326,48 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          <cb n="a"/>Μή(τη)ρ
-                          <cb n="b"/>Θ(εο)ῦ
+                      <ab ana="nom">
+                          <cb n="a"/><expan><abbr>Μή</abbr><ex>τη</ex><abbr>ρ</abbr></expan>
+                          <cb n="b"/><expan><abbr>Θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan>
                       </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>[+Θ](εοτό)κε β(οή)θ(ει) Κων(σταντίνῳ) (πρωτο)σπαθ[αρ(ίῳ)]
+                      <ab ana="dat">
+                          <lb n="1"/><supplied reason="lost">+</supplied><rs type="invocation" ref="#inv001"><expan><abbr><supplied reason="lost">Θ</supplied></abbr><ex>εοτό</ex><abbr>κε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></rs> <forename><expan><abbr>Κων</abbr><ex>σταντίνῳ</ex></expan></forename> <rs type="dignity" ref="#d0066"><expan><abbr><am>A</am></abbr><ex>πρωτο</ex><abbr>σπαθ</abbr><supplied reason="lost"><abbr>αρ</abbr><ex>ίῳ</ex></supplied></expan></rs>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          <cb n="c"/>Ὁ ἅ(γιος) Βασί
+                      <ab ana="nom">
+                          <cb n="c"/><expan><abbr>Ὁ ἅ</abbr><ex>γιος</ex></expan> Βασί
                           <cb n="d"/>λειος
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="circular" xml:lang="grc"> 
-                      <ab>
-                          <lb n="2"/>(καὶ) μετριτῇ τῷ Ἀραβυνδ(ίνῳ)
+                      <ab ana="dat">
+                          <lb n="2"/><expan><abbr><am>S</am></abbr><ex>καὶ</ex></expan> <rs type="office" subtype="civil" ref="#of0132">μετριτῇ</rs> τῷ <surname><expan><abbr>Ἀραβυνδ</abbr><ex>ίνῳ</ex></expan></surname>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="nom">
                           <cb n="a"/>
                           <cb n="b"/>ΘΥ
                       </ab>
                   </div>
                   <div type="textpart" n="obv" subtype="face" rend="circular" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>..ΕΘ̣ΝΑΣΠΑ̣Θ̣..
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="label" rend="columns" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="nom">
                           <cb n="c"/>̣|̣|Α̣|Σ̣Ι
                           <cb n="d"/>Λ|ΕΙ|Ο|Σ
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="circular" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="dat">
                           <lb n="2"/>̣Μ̣ΕΤ̣Ρ̣ΙΤ,ΤΡ̣Υ̣Ν̣Δ̣
                       </ab>
                   </div>
@@ -382,7 +383,7 @@
             <div type="translation">
                 <p>Μήτηρ Θεοῦ. + Θεοτόκε βοήθει Κωνσταντίνῳ πρωτοσπαθαρίῳ / Ὁ ἅγιος Βασίλειος. καὶ μετριτῇ τῷ Ἀραβυνδίνῳ.</p>
                 <p xml:lang="fr"> Mère de Dieu. Saint Basile. Mère de Dieu protège Constantin Arabyndinos, protospathaire et métritès.</p>
-                <p xml:lang="en">Mother of God. Saint Basil. Mother of God aid Constantine Arabyndinos, protospatharios and metrites.</p>
+                <p xml:lang="en">Mother of God. Saint Basil. Mother of God aid Constantine Arabyndinos, protospatharios and metretes.</p>
             </div>
             <div type="commentary" subtype="text">
                 <p xml:lang="fr"/>

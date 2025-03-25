@@ -7,7 +7,7 @@
         <fileDesc>
             <titleStmt>
                 <title xml:lang="fr">Sceau de Théodore fils/neveu d'Alyatès, patrice</title>
-                <title xml:lang="en">Seal of Theodore son/nephew Alyates, patrikios</title>
+                <title xml:lang="en">Seal of Theodore son/nephew of Alyates, patrikios</title>
                 <editor role="seal-editor" xml:id="JCC">Jean-Claude Cheynet</editor>
                 <editor role="seal-editor" xml:id="VP">Vivien Prigent</editor>
                 <editor role="seal-editor" xml:id="AS">Alessio Sopracasa</editor>
@@ -39,7 +39,7 @@
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <listPerson type="issuer"><!-- check the PBW -->
+                <listPerson type="issuer">
                     <person gender="M" role="civil">
                         <persName xml:lang="grc">
                             <forename>Θεόδωρος</forename>
@@ -53,6 +53,7 @@
                             <forename>Theodore</forename>
                             <surname>Alyates</surname>
                         </persName>
+                        <idno type="PBW" ana="http://pbw2016.kdl.kcl.ac.uk/person/Theodoros/20107/">Theodoros 20107</idno>
                     </person>
                 </listPerson>
                 <msDesc>
@@ -135,6 +136,7 @@
                                     </rs>
                                     <rs type="matrix" subtype="not-surviving">
                                         <idno type="SigiDoc">m-b5BBEd</idno>
+                                        <idno type="PBW" corresp="http://pbw2016.kdl.kcl.ac.uk/boulloterion/178/">178</idno>
                                     </rs>
                                 </layout>
                             </layoutDesc>
@@ -299,6 +301,7 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="AS" when="2025-03-25">Leidenisation and indexing.</change>
             <change who="AS" when="2025-03-20">URL to images added.</change>
             <change who="AS" when="2025-02-21">Creation of the XML record.</change>
         </revisionDesc>
@@ -323,29 +326,29 @@
         <body>
             <div type="edition" subtype="editorial" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
-                      <ab>
-                          <cb n="1"/>Μ(ήτηρ)
-                          <cb n="2"/>[Θ(εοῦ)]
+                      <ab ana="nom">
+                          <cb n="1"/><expan><abbr>Μ</abbr><ex>ήτηρ</ex></expan>
+                          <cb n="2"/><supplied reason="lost"><expan><abbr>Θ</abbr><ex>εοῦ</ex></expan></supplied>
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc"> 
-                      <ab>
-                          <lb n="1"/>Θ(εοτό)κε β(οή)θ(ει)
-                          <lb n="2"/>Θεοδώρ(ῳ)
-                          <lb n="3"/>π(ατ)ρι(κίῳ) ὁ τοῦ
-                          <lb n="4"/>Ἀλιάτου
+                      <ab ana="dat">
+                          <lb n="1"/><rs type="invocation" ref="#inv001"><expan><abbr>Θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan> <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ει</ex></expan></rs>
+                          <lb n="2"/><forename><expan><abbr>Θεοδώρ</abbr><ex>ῳ</ex></expan></forename>
+                          <lb n="3"/><expan><abbr>π</abbr><ex>ατ</ex><abbr>ρι</abbr><ex>κίῳ</ex></expan> ὁ τοῦ
+                          <lb n="4"/><surname>Ἀλιάτου</surname>
                       </ab>
                   </div>
               </div>
             <div type="edition" subtype="diplomatic" xml:space="preserve">
                 <div type="textpart" n="obv" subtype="sigla" rend="columns" xml:lang="grc"> 
-                      <ab>
+                      <ab ana="nom">
                           <cb n="a"/>
                           <cb n="b"/>.
                       </ab>
                   </div>
                   <div type="textpart" n="rev" subtype="face" rend="linear" xml:lang="grc">
-                      <ab>
+                      <ab ana="dat">
                           <lb n="1"/>Θ̣ΕΘ̣,
                           <lb n="2"/>Θ̣ΕΟΔΡ,
                           <lb n="3"/>ΠΡΙ⸣ΟΤΟ̣Υ
@@ -360,8 +363,8 @@
             </div>
             <div type="translation">
                 <p>Μήτηρ Θεοῦ. / Θεοτόκε βοήθει Θεοδώρῳ πατρικίῳ ὁ τοῦ Ἀλιάτου.</p>
-                <p xml:lang="fr">Mère de Dieu. Mère de Dieu protège Théodore ὁ τοῦ Alyatès, patrice.</p>
-                <p xml:lang="en">Mother of God. Mother of God aid Theodore ὁ τοῦ Alyates, patrikios.</p>
+                <p xml:lang="fr">Mère de Dieu. Mère de Dieu protège Théodore fils/neveu d'Alyatès, patrice.</p>
+                <p xml:lang="en">Mother of God. Mother of God aid Theodore son/nephew of Alyates, patrikios.</p>
                 <p xml:lang="fr"/>
             </div>
             <div type="commentary" subtype="text">
@@ -373,9 +376,7 @@
                 <p>Vienne, MK 332:
                     <bibl>
                         <ptr target="BBÖ1"/>, no. <citedRange unit="part"
-                            >148</citedRange>
-                    </bibl>.
-                </p>
+                            >148</citedRange></bibl>.</p>
             </div>
         </body>
     </text>
