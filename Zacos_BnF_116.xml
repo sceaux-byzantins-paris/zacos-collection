@@ -301,13 +301,13 @@
         <surfaceGrp>
             <surface n="r">
                 <desc>Obverse</desc>
-                <graphic url="Zacos_BnF_116a.jpg" type="photo">
+                <graphic url="https://zacos.sigidoc.huma-num.fr/images/Zacos_BnF_116a.jpg" type="photo">
                     <desc>Digital image of the obverse.</desc>
                 </graphic>
             </surface>
             <surface n="v">
                 <desc>Reverse</desc>
-                <graphic url="Zacos_BnF_116b.jpg" type="photo">
+                <graphic url="https://zacos.sigidoc.huma-num.fr/images/Zacos_BnF_116b.jpg" type="photo">
                     <desc>Digital image of the reverse.</desc>
                 </graphic>
             </surface>
